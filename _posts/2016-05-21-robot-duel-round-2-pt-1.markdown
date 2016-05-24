@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robot Duel Round 2 part 1"
+title:  "Robot Duel Round 2, part 1"
 date:   2016-05-21 13:36:07 -0400
 categories: robot
 ---
