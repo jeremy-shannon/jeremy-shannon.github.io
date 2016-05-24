@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robot Duel Round 1"
-date:   2016-05-23 13:36:06 -0400
+date:   2016-05-20 13:36:06 -0400
 categories: robot
 ---
 Listen to me get nerdy after an all-nighter at our robot duel in Electronics class in 2013.
