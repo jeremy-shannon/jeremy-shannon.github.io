@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Udacity Self-Driving Car Nanodegree"
-date:   2016-10-05 21:00:00 -0600
+date:   2016-10-05 21:00:00 
 categories: self-driving car, udacity
 ---
 In mid-September Udacity announced a [self-driving car "Nanodegree" program](http://www.udacity.com/drive) and I was immediately IN. Since deciding to pivot my career toward software development, I've said many times (to myself, probably) that if I could have any job I wanted it would be something related to self-driving cars (I'll get into my reasons for that later). It was less than a month since I'd looked, somewhat seriously, into Autopilot Engineer jobs at Tesla when suddenly this announcement floated down from the heavens and into my inbox. 
