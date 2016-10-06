@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JeremyShannon.com</title>
+    <description>Jeremy Shannon - Oklahoma City, OK electronics engineer (automated testing) turned web developer experienced in .NET Framework and NodeJS, with some Wordpress and iOS sprinkled in as well.
+</description>
+    <link>..//</link>
+    <atom:link href="..//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2016-06-10 16:12:10 -0500</pubDate>
+    <lastBuildDate>2016-06-10 16:12:10 -0500</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+      <item>
+        <title>Robot Duel Round 3</title>
+        <description>&lt;p&gt;Final round of the robot duel.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a0FrJSP458s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>2016-05-23 12:36:09 -0500</pubDate>
+        <link>..//robot/2016/05/23/robot-duel-round-3.html</link>
+        <guid isPermaLink="true">..//robot/2016/05/23/robot-duel-round-3.html</guid>
+        
+        
+        <category>robot</category>
+        
+      </item>
+    
+      <item>
+        <title>Robot Duel Round 2, part 2</title>
+        <description>&lt;p&gt;Semifinal round of the robot duel (part 2).&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NNbMZWrt4E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>2016-05-22 12:36:08 -0500</pubDate>
+        <link>..//robot/2016/05/22/robot-duel-round-2-pt-2.html</link>
+        <guid isPermaLink="true">..//robot/2016/05/22/robot-duel-round-2-pt-2.html</guid>
+        
+        
+        <category>robot</category>
+        
+      </item>
+    
+      <item>
+        <title>Robot Duel Round 2, part 1</title>
+        <description>&lt;p&gt;Semifinal round of the robot duel (part 1).&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/g39YBQFqPew&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>2016-05-21 12:36:07 -0500</pubDate>
+        <link>..//robot/2016/05/21/robot-duel-round-2-pt-1.html</link>
+        <guid isPermaLink="true">..//robot/2016/05/21/robot-duel-round-2-pt-1.html</guid>
+        
+        
+        <category>robot</category>
+        
+      </item>
+    
+      <item>
+        <title>Robot Duel Round 1</title>
+        <description>&lt;p&gt;Listen to me get nerdy after an all-nighter at our robot duel in Electronics class in 2013.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5qnGDAHMPkQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;You might be thinking, “those robots suck!” and you’re right. But try to understand - the assignment was to build them out of as few non-discrete components as possible. So… resistors, capacitors, and transistors - lots and lots of transistors. It was kind of like building a web application out of ones and zeros. &lt;/p&gt;
+</description>
+        <pubDate>2016-05-20 12:36:06 -0500</pubDate>
+        <link>..//robot/2016/05/20/robot-duel-round-1.html</link>
+        <guid isPermaLink="true">..//robot/2016/05/20/robot-duel-round-1.html</guid>
+        
+        
+        <category>robot</category>
+        
+      </item>
+    
+  </channel>
+</rss>
