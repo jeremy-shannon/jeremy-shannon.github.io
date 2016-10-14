@@ -7,3 +7,5 @@ categories: robot
 Semifinal round of the robot duel (part 1).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g39YBQFqPew" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNbMZWrt4E" frameborder="0" allowfullscreen></iframe>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Udacity Self-Driving Car Nanodegree"
+title:  "The Udacity Self-Driving Car Nanodegree Program"
 date:   2016-10-05 21:00:00 
 categories: self-driving car, udacity
 ---
