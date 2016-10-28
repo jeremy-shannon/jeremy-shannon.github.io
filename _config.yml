@@ -11,14 +11,15 @@ email: jeremyeshannon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Jeremy Shannon - Oklahoma City, OK electronics engineer (automated testing)
   turned web developer experienced in .NET Framework and NodeJS, with some
-  Wordpress and iOS sprinkled in as well.
+  Wordpress and iOS sprinkled in as well. Now I'm all about SELF-DRIVING CARS.'
 baseurl: "" # the subpath of your site, e.g. /blog
 #PRODUCTION
 #url: "http://jeremyshannon.com" # the base hostname & protocol for your site
 #DEV
 url: "../" # the base hostname & protocol for your site
-twitter_username: jeremy_and
-github_username:  jeremy-shannon
+twitter_username:  jeremy_and
+github_username:   jeremy-shannon
+linkedin_username: jeremyeshannon
 
 # Build settings
 markdown: kramdown
