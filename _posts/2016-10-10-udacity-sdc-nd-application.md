@@ -14,7 +14,7 @@ The other parts of my application went like this:
 
 What is your relevant educational history (online and offline)?
 
-> BS Computer Engineering, University of Oklahoma - coursework included Engineering Statistics, Electric Vehicle Design, Control Systems, Calculus I-IV, Differential Equations, 12 hours of lower-level Computer Science coursework. MS Electrical and Computer Engineering, University of Oklahoma - coursework included Measurement & Automation, Robotic Design, Antenna Theory, Digital Signal Processing, Random Signals, Partial Differential Equations. Member of two autonomous robot design teams and two electric vehicle racing teams. Relevant on-the-job courses - ANSI C Programming, C++ Fundamentals, Secure Programming in C and C++. Numerous online courses focused on C# .NET and JavaScript. 
+> BS Computer Engineering, University of Oklahoma - coursework included Engineering Statistics, Electric Vehicle Design, Control Systems, Calculus I-IV, Differential Equations, 12 hours of lower-level Computer Science coursework. <br>MS Electrical and Computer Engineering, University of Oklahoma - coursework included Measurement & Automation, Robotic Design, Antenna Theory, Digital Signal Processing, Random Signals, Partial Differential Equations. Member of two autonomous robot design teams and two electric vehicle racing teams. Relevant on-the-job courses - ANSI C Programming, C++ Fundamentals, Secure Programming in C and C++. Numerous online courses focused on C# .NET and JavaScript. 
 
 What do you hope to get out of the program?
 
