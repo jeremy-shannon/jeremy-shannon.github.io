@@ -12,7 +12,7 @@ Udacity had announced that acceptance letters would be e-mailed on October 3, an
 
 WOOHOO!!
 
-> #Jeremy, welcome to our Self-Driving Car program!
+> ##Jeremy, welcome to our Self-Driving Car program!
 
 >Congratulations! <br><br>More than 11,000 people applied to the Self-Driving Car Engineer Nanodegree program. We had an incredible pool of talented and experienced candidates from around the world. I am very pleased to let you know that you have been selected to be a part of the program starting on Monday, December 12, 2016.
 
