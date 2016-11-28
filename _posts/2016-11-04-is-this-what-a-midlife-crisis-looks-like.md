@@ -5,9 +5,9 @@ date:   2016-11-04 21:00:00
 categories: life, work
 ---
 
-I decided today I'm going to take a little tangent away from the self-driving car thing and talk about mid-life crises. Maybe this topic ventures a little too far into the realm of the personal, but it's what I feel like writing about at the moment.
+I decided today I'm going to take a little tangent away from the self-driving car thing and talk about midlife crises. Maybe this topic ventures a little too far into the realm of the personal, but it's what I feel like writing about at the moment.
 
-And maybe "mid-life crisis" isn't particularly apt, seeing as I'm not *quite* mid-life (I hope). And, aside from my career, I'm actually quite happy with my life. So maybe I should call it a "mid-career crisis". When I think of a mid-life crisis I think sports cars, divorce, reinventing oneself - pretty much Kevin Spacey's character in American Beauty. That's not what this is.
+And maybe "midlife crisis" isn't particularly apt, seeing as I'm not *quite* mid-life (I hope). And, aside from my career, I'm actually quite happy with my life. So maybe I should call it a "mid-career crisis". When I think of a midlife crisis I think sports cars, divorce, reinventing oneself - pretty much Kevin Spacey's character in American Beauty. That's not what this is.
 
 My career began in the middle of a divorce: I was about to finish my bachelor's degree, but I was too preoccupied with personal matters to get on the ball with the university career services program. By the time I signed up there were only two employers bidding for hires, and I ended up getting a job at Tinker Air Force Base. 
 
