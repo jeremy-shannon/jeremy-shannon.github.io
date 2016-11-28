@@ -18,6 +18,8 @@ WOOHOO!!
 
 I was one of the 500 selected, out of 11,000 applicants! Hooray!
 
-Well, except it turns out that pretty much everyone was accepted. (Doh! After all of that gloating! Not really. Well, kind of.) Yeah, they split the applicants into an October cohort of 500, November cohort of 1000, December cohort of 2500, and then the rest in Januray. Whatever! I'm on board. The team at Udacity decided that turning away thousands would go against their core value of "students first", which I respect. I'm glad I get to take part in this program, whatever the circumstances.
+Well, except it turns out that pretty much everyone was accepted. (Doh! After all of that gloating! Not really. Well, kind of.)
+
+Yeah, they split the applicants into an October cohort of 500, November cohort of 1000, December cohort of 2500, and then the rest in Januray. Whatever! I'm on board. The team at Udacity decided that turning away thousands would go against their core value of "students first", which I respect. I'm glad I get to take part in this program, whatever the circumstances. And waiting another month and a half (beyond the start of the October cohort) isn't the end of the world. In fact, I can get a head start on some of the topics covered in the nanodegree, like Deep Learning and Computer Vision.
 
 December 12 can't get here soon enough!
