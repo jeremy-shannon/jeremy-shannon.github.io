@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   turned web developer experienced in .NET Framework and NodeJS, with some
   Wordpress and iOS sprinkled in as well. Now I'm all about SELF-DRIVING CARS.'
 baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:year/:month/:day/:title.html
 #PRODUCTION
 #url: "http://jeremyshannon.com" # the base hostname & protocol for your site
 #DEV
