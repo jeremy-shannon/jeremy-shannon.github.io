@@ -8,7 +8,7 @@ The application window for the [self-driving car nanodegree program](http://www.
 
 The application itself was simple - name, e-mail, a few dropdowns to select from a list of specifically pertinent courses you may have already taken, and a couple of large text boxes to further delineate your educational background and why you're applying. The application also automatically pulled in any related Udacity courses you've already taken.
 
-The prerequisites were: git/GitHub, Python, probability and statistics, calculus, and some machine learning. I had a feeling my master's degree would be helpful, but I had no experience with Python or machine learning. I figured the best way to compensate for that would be to take Udacity's Intro to Machine Learning course which covered both. It was listed as a ten-week course, assuming six hours of work per week. But I managed to knock it out in eight days and include it on my application. I'll go into the details of what I learned in a future post.
+The prerequisites were: git/GitHub, Python, probability and statistics, calculus, and some machine learning. I had a feeling my master's degree would be helpful, but I had no experience with Python or machine learning. I figured the best way to compensate for that would be to take Udacity's Intro to Machine Learning course which encompasses both since the programming exercises are written in Python. It was listed as a ten-week course, assuming six hours of work per week. But I managed to knock it out in eight days and include it on my application. I'll go into the details of what I learned in a future post.
 
 The other parts of my application went like this:
 
