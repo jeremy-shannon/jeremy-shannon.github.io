@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Udacity Intro to Machine Learning"
+title:  "Udacity Intro to Machine Learning, part 1"
 date:   2016-11-11 21:00:00 
 categories: udacity, machine learning
 ---
