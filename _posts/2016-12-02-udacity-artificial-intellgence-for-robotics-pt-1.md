@@ -15,4 +15,6 @@ The Kalman filter is a bit more sophistocated in that it operates in continuous 
 
 The particle filter also operates in continuous environments, but it's a bit more of a shotgun, guess-and-check localization method. You basically take a massive number of random guesses at where you are and where you're heading (copies of your robot), then take a measurement and "resample", which means that bad guesses drop out and good guesses are duplicated (and better guesses are duplicated even more). This move-measure-resample sequence is repeated until the guesses converge and you're left with a bunch of copies of the absolute best guess. 
 
+You can find my code for the exercises and projects in this course [here](https://github.com/jeremy-shannon/udacity-AI-for-robotics)
+
 I'll wrap up the rest of this course in the next post. Until then!
