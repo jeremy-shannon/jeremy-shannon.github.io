@@ -17,4 +17,6 @@ The course also goes into further detail on topics like feature scaling, text le
 
 Instructor Katie Malone has an excellent podcast on the topic of machine learning and data science called [Linear Digressions](http://lineardigressions.com/). Anyone annoyed with mansplaining will find it refreshing, since Katie perpetually schools cohost Ben Jaffe in episode after episode, topic after topic. :)
 
+You can find my code for the exercises and projects in this course [here](https://github.com/jeremy-shannon/Intro-to-Machine-Learning-Udacity)
+
 Next time: Artificial Intelligence for Robotics!
