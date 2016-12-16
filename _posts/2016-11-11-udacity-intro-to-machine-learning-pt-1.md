@@ -15,4 +15,6 @@ In the introductory demonstration, instructor Katie Malone hands co-instructor S
 
 The **features** of the animals were the inputs to Sebastian's mental algorithm - size, number of legs, tail length, color, etc. - and the group each animal belongs to (acerous/non-acerous - the output of the algorithm) were the **labels**. Given the features of a new, unlabeled animal, Sebastian should be able to determine its label (with a certain amount of confidence). In this example having horns or antlers was the only feature that had any actual bearing on the classification, but a more typical machine learning model might apply a combination of features in different amounts to arrive at a formula to classify new inputs.
 
+You can find my code for the exercises and projects in this course [here](https://github.com/jeremy-shannon/Intro-to-Machine-Learning-Udacity)
+
 (to be continued...)
