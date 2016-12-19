@@ -7,7 +7,7 @@ categories: udacity, artificial intelligence, robotics
 
 This week I actually started the Self-Driving Car Nanodegree program (!!!), but I'm not quite ready to share anything I've learned just yet. Suffice it to say, so far it's ***awesome***! And thankfully the program begins with a quick bite to whet your appetite, a bit of an *amuse bouche* of a project: Finding Lane Lines, which I'll be able to share next week. For now, I'll wrap up my experience with the Artificial Intelligence for Robotics course - the final project: 
 
-####Runaway Robot!
+###Runaway Robot!
 
 The premise behind the project is this:
 
@@ -41,6 +41,6 @@ The final part involved massive amounts of noise coming back from the Traxbot GP
 
 You can find my code for the exercises and projects in this course [here](https://github.com/jeremy-shannon/udacity-AI-for-robotics)
 
-In the interim, after completing this course I also took the (short) Linear Algebra Refresher, (sorter) Deep Learning, and began the (looooong) Intro to Computer Vision courses from Udacity. It was good to get a little more practice with Python, an intro to Tensorflow, and a head start on some of the topics covered in the Self-Driving Car curriculum, but I'll save discussion on these topics for when they're covered in the nanodegree program. 
+In the interim, after completing this course I also took the (short) Linear Algebra Refresher, (shorter) Deep Learning, and began the (looooong) Intro to Computer Vision courses from Udacity. It was good to get a little more practice with Python, an intro to Tensorflow, and a head start on some of the topics covered in the Self-Driving Car curriculum, but I'll save discussion on these topics for when they're covered in the nanodegree program. 
 
 Until next time!
