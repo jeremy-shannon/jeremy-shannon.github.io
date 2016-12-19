@@ -7,7 +7,8 @@ categories: udacity, artificial intelligence, robotics
 
 This week I actually started the Self-Driving Car Nanodegree program (!!!), but I'm not quite ready to share anything I've learned just yet. Suffice it to say, so far it's ***awesome***! And thankfully the program begins with a quick bite to whet your appetite, a bit of an *amuse bouche* of a project: Finding Lane Lines, which I'll be able to share next week. For now, I'll wrap up my experience with the Artificial Intelligence for Robotics course - the final project: 
 
-###Runaway Robot!
+Runaway Robot!
+--------------
 
 The premise behind the project is this:
 
