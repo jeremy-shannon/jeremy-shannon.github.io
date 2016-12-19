@@ -35,7 +35,7 @@ And I found another person who had used the EKF, but with (I take it) the wrong 
 
 The next two parts involved chasing down the Traxbot, first with a robot that can move faster than the Traxbot, then with one that moves slower. I found this part to be a bit easier than the localization. My algorithm basically extrapolated the Traxbot speed and turning angle to find the spot where my robot could intercept it and head there (with adjustments along the way). Here's a video of my final chase-bot (with a demonstration of a first-pass miss, which is probably bound to happen from time to time with the noise - but typically the chase-bot catches the Traxbot on the first pass)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8vvtMJwlV18" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8vvtMJwlV18" target="_blank"><img src="http://img.youtube.com/vi/8vvtMJwlV18/0.jpg" alt="Runaway Robot on YouTube" width="240" height="180" border="10" /></a>
 
 The final part involved massive amounts of noise coming back from the Traxbot GPS readings, and my EKF failed miserably. I felt I had gotten what I wanted out of the course at this point, so I called it a day.
 
