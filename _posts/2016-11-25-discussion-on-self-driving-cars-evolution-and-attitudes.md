@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Discussion on Self-Driving Cars: Evolution and Attitudes"
+title:  "Self-Driving Commentary: Evolution and Attitudes"
 date:   2016-11-25 21:00:00 
-categories: self-driving cars, discussion, evolution, attitudes, public perception
+categories: self-driving commentary, self-driving cars, evolution, attitudes, public perception
 ---
+
+*This post belongs to a series I'm calling Self-Driving Commentary, in which I spout and ramble on whatever is rattling around in my head pertaining to self-driving cars. Enjoy!*
 
 I've decided that rather than try to enumerate in a single post all of my feelings on self-driving cars and the future I imagine they'll usher in, I'll choose a topic from an existing article and discuss my feelings on that particular topic. It seems there's no shortage of articles discussing the benefits of self-driving cars in the areas of safety (I can't tell you how many times I've read that each year human error causes roughly one million auto fatalities worldwide, thirty thousand in the US alone), environmental impact (nine out of ten cars will be taken off the road, and the quicker potential for 100% electric vechile adoption), and convenience (all that extra work and Twittering we'll be able to do, or sleeping - I vote for sleeping). I'm sure I'll touch on those topics here and there, probably tangentially to whatever other topics I may discuss, throughout. For now I'd like to discuss a topic I found in this article (found through the ever-so-scientific process of Googling "self-driving cars will"): [Top misconceptions of autonomous cars and self-driving vehicles](http://www.driverless-future.com/?page_id=774), particularly the point that [driver assistance systems will evolve gradually into fully autonomous cars](http://www.driverless-future.com/?page_id=774#gradual-evolution).
 
