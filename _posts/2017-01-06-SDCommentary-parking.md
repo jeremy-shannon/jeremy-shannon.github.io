@@ -45,4 +45,4 @@ That scenario is pretty exclusive to the ownership model, too. And I'm service m
 
 I've read other versions of that scenario, but I just don't see it happening. The extra income (hopefully enough to offset the cost of the car) might be nice, but when you find yourself the proud owner of a car full of boiled egg farts I think you might change your mind about it real fast.
 
-All this to say, I think the most plausible consequence of all this reclaimed asphalt is more and cheaper housing in city centers. Future generations are going to be all the more inclusive and value community more and more. Mark my words!
+All this to say, I think the most plausible consequence of all this reclaimed asphalt is more and cheaper housing in city centers. Future generations are going to be all the more inclusive and value community more and more, and by and large they're going to want to live in city centers. Mark my words!
