@@ -25,7 +25,7 @@ But wait, how do you figure out what those weights and biases should be? Well, y
 
 I tried to think of an analogy to describe this, and here's the best I could come up with: Think of a guitar player's setup - with the guitar and amp and a bunch of pedals to shape the sound of the guitar. Now imagine you're trying to replicate [Annie Clark](http://ilovestvincent.com)'s sound, and you've got the guitar and the amp and all the pedals set up the same way she does, but you can't tell from your crappy low-res photos what numbers all those knobs are dialed to. What now? Deep learning would be like taking a recording, giving your computer the inputs (chords and notes being played) and the outputs (sounds coming out of the amp), and letting *it* figure out how to dial in all of those knobs. (Be warned, this analogy is very fragile and its feelings are easily hurt.)
 
-![turn... turn... turn...](PIC OF GUITAR PEDALS HERE)
+![turn... turn... turn...](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/guitarPedals.jpg?raw=true)
 
 For this project, the image data came from the [Germain Traffic Sign Detection Benchmark](http://benchmark.ini.rub.de/) (GTSRB) data set. Here are some sample images (you can see the numerical labels above each image):
 
@@ -44,7 +44,7 @@ A previous exercise introduced the [LeNet architecture](http://yann.lecun.com/ex
 
 Udacity also recommended reading a [journal article](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) written by Pierre Sermanet and (wouldn't you know it) Yann LeCun, describing an approach for... wait for it... classifying traffic signs! Score! I was eager to implement this new architecture and see how it performs. Even though some of the specifics of the architecture were left out of the paper, I took a stab at it and filled in the blanks so as to keep it as similar to LeNet as possible.
 
-![Sermanet-LeCun architecture](https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/raw/master/files/images/modifiedLeNet.jpeg)
+![Sermanet-LeCun architecture](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/modifiedLeNet.jpeg?raw=true)
 
 Switching to this architecture immediately netted me another 1% validation accuracy (now 97.5%), but why leave it at that? The paper also describes other strategies for improving accuracy, including converting the image to grayscale, "normalizing", and augmenting the data by copying and slightly modifying underrepresented classes. I implemented all of these, plus a technique called "dropout," to improve validation accuracy another percent or so. 
 
