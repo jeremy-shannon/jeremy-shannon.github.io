@@ -68,11 +68,11 @@ Now that I was satisfied with my model it was time to evaluate it against a "tes
 
 And now for a little extra fun - we were instructed to find at least five images of traffic signs, around the internet or in person, and see how our model performs on those. Here are the eight that I chose:
 
-![My found traffic sign images](https://raw.githubusercontent.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/master/images/output_57_1.png)
+![My found traffic sign images](https://cdn-images-1.medium.com/max/800/1*bJSyDaR7-XsBLreG0Y0CSQ.png)
 
 And here's how the model performed on them:
 
-![Model predictions on found traffic signs](https://raw.githubusercontent.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/master/images/output_63_0.png)
+![Model predictions on found traffic signs](https://cdn-images-1.medium.com/max/800/1*10tshEzIMfLnokrC-MFJ8Q.png)
 
 Rather than just show the predicted class number for each sign, I pulled an example from the original dataset. Shown are the top three predictions and (in parentheses) the certainty of each prediction. 
 
