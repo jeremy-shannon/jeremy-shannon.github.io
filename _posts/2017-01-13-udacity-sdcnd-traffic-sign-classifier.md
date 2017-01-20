@@ -27,7 +27,7 @@ I tried to think of an analogy to describe this, and here's the best I could com
 
 ![turn... turn... turn...](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/guitarPedals.jpg?raw=true)
 
-For this project, the image data came from the [Germain Traffic Sign Detection Benchmark](http://benchmark.ini.rub.de/) (GTSRB) data set. Here are some sample images (you can see the numerical labels above each image):
+For this project, the image data came from the [German Traffic Sign Detection Benchmark](http://benchmark.ini.rub.de/) (GTSRB) data set. Here are some sample images (you can see the numerical labels above each image):
 
 ![Traffic Signs Aplenty!](https://raw.githubusercontent.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/master/images/output_6_0.png)
 
@@ -76,7 +76,7 @@ And here's how the model performed on them:
 
 Rather than just show the predicted class number for each sign, I pulled an example from the original dataset. Shown are the top three predictions and (in parentheses) the certainty of each prediction. 
 
-Wait... a hundred percent? Seriously? I don't know how this model can be *that* sure of its prediction. Granted, I gave it some real softballs, there. But still, I would have expected them all to be in the 75-90% range. Whatever! I'll take it! Good job... model.
+Wait... a hundred percent? Seriously? I don't know how this model can be *that* sure of its prediction. Granted, I gave it some real softballs, there. But still, I would have expected them all to be in the 75-90% range. Whatever - I'll take it! Good job, model!
 
 At this point there are still a few things I could experiment with. For example, I never ran color images through the model because I was trying to save myself time and processing power in the beginning, but the grayscale performed really well (as Sermanet-LeCun indicated) so I never bothered. I never played around much with the jittering parameters, either. I could probably think of a dozen different ways to further experiment, but you have to stop somewhere... and I have a "behavioral cloning" project coming up that's got me frothing at the mouth.
 
