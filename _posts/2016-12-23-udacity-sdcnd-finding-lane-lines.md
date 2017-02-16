@@ -48,3 +48,5 @@ And here's a video that demonstrates it:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=xknesDIgOcA" target="_blank"><img src="http://img.youtube.com/vi/xknesDIgOcA/0.jpg" alt="Udacity Self-Driving Car Nanodegree project 1 - Finding Lane Lines" width="240" height="180" border="10" /></a>
 
 It'll be a few more weeks until the next project is due, but I'm sure I'll have plenty to share in the intervening weeks.
+
+*If you'd like to get technical, my solution to this project can be found in [this GitHub repo](https://github.com/jeremy-shannon/CarND-LaneLines-P1)*
