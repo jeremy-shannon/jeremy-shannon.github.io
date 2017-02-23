@@ -7,7 +7,7 @@ categories: udacity, self-driving car, nanodegree, project, behavioral cloning, 
 
 ![Confused Car](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/behavioralCloning.PNG?raw=true)
 
-*This is a friendlier depiction of my experience; if you'd like to get technical go [here](https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project)*
+*This is a friendlier depiction of my experience; if you'd like to get technical go [here](https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project).*
 
 Teaching a car to drive - sounds easy, right? I mean, it couldn't be any tougher than teaching a teenager (as long as she's been paying attention). And really, that's what it comes down to: as long as you've shown the car what it needs to learn, it can learn. Incredible!
 
@@ -58,7 +58,7 @@ OK, so what happens if I swing that pendulum the other direction?
 
 See for yourself.
 
-[![Self-Driving!](https://img.youtube.com/vi/oiOOqJdW9Y4/0.jpg)](https://www.youtube.com/watch?v=oiOOqJdW9Y4)
+[![Self-Driving!](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/IMG_3624.PNG?raw=true)](https://www.youtube.com/watch?v=oiOOqJdW9Y4)
 
 Here's the final CNN architecture:
 
@@ -73,4 +73,4 @@ I could pretty easily spend hours upon hours tuning the data and model to perfor
 I enjoyed this project thoroughly and I'm very pleased with the results. Training the car to drive itself, with relatively little effort and virtually no explicit instruction, was extremely rewarding.
 
 
-*Again, for the technical version go [here](https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project)*
+*Again, for the technical version go [here](https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project).*
