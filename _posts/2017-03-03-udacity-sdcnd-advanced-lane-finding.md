@@ -5,7 +5,7 @@ date:   2017-03-03 21:00:00
 categories: udacity, self-driving car, nanodegree, project, advanced lane-finding, computer vision
 ---
 
-*Welcome to the mom version (Hi mom!);  if jargon and mumbo jumbo is more your style then [by all means](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines), otherwise...*
+*Welcome to the mom version (Hi mom!); if jargon and mumbo jumbo is more your style then [by all means](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines), otherwise enjoy!*
 
 [//]: # (Image References)
 [im01]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/01-calibration.png?raw=true "Chessboard Calibration"
@@ -23,13 +23,13 @@ categories: udacity, self-driving car, nanodegree, project, advanced lane-findin
 [im13]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/17-draw_lane.png?raw=true "Lane Drawn onto Original Image"
 [im14]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/18-draw_data.png?raw=true "Data Drawn onto Original Image"
 
-Project number four for Term 1 of the Udacity Self-Driving Car Engineer Nanodegree built upon [the first project](http://jeremyshannon.com/2016/12/23/udacity-sdcnd-finding-lane-lines.html), more so than the [second](http://jeremyshannon.com/2017/01/13/udacity-sdcnd-traffic-sign-classifier.html) and [third](http://jeremyshannon.com/2017/02/10/udacity-sdcnd-behavioral-cloning.html) projects. While that might seem obvious because they both involve finding lane lines, the reason for this *under the hood* (har har) is that while projects two and three introduced us to the hot-ass newness of deep learning to almost write our code for us, projects one and four rely on more traditional computer vision techniques to get very explicit about how we go from input to output. It's almost a let down - like trading a keyboard in for a pencil - but *people are saying* (that's my attempt at being presedential) that companies still rely on these techniques, so it's definitely worth learning (and still fun and challenging) and the OpenCV library is the one doing all the heavy lifting.
+Project number four for Term 1 of the Udacity Self-Driving Car Engineer Nanodegree built upon [the first project](http://jeremyshannon.com/2016/12/23/udacity-sdcnd-finding-lane-lines.html), more so than the [second](http://jeremyshannon.com/2017/01/13/udacity-sdcnd-traffic-sign-classifier.html) and [third](http://jeremyshannon.com/2017/02/10/udacity-sdcnd-behavioral-cloning.html) projects. While that might seem obvious because they both involve finding lane lines, the reason for this *under the hood* (har har) is that while projects two and three introduced us to the hot-ass newness of deep learning to damn near write our code for us, projects one and four rely on more traditional computer vision techniques to get very explicit about how we go from input to output. It's almost a let down - like trading a keyboard in for a pencil - but *people are saying* (do I sound presedential?) that companies still rely on these techniques, so it's definitely worth learning (and still fun and challenging) and the OpenCV library is the one doing all the heavy lifting anyway.
 
-"So let's grab a dashcam find some lanes!" you're saying. Well, hold on just a second, Tex. You can't just start finding lanes all willy-nilly. That camera you're using? It distorts the images. You probably couldn't even tell, but look:
+"So let's grab a dashcam find some lanes!" you're saying. Well, hold on just a second, Tex. You can't just start finding lanes all willy-nilly. For starters, that camera you're using? It distorts the images. You probably couldn't even tell, but it's true! Look:
 
 ![alt text][im02]
 
-Thankfully this can be corrected (for an individual camera/lens) with OpenCV and a handful of photos of chessboards. Check it out:
+Thankfully this can be corrected (for an individual camera/lens) with a handful of photos of chessboards and the OpenCV functions `findChessboardCorners` and `calibrateCamera`. Check it out:
 
 ![alt text][im03]
 
