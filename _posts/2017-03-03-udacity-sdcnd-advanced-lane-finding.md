@@ -41,7 +41,7 @@ I know - it looks almost the same to me too, but the distortion is most noticeab
 
 I probably went to greater lengths than necessary to get my perspective transform *juuuust right* (making straight lines perfectly vertical in the resulting birds-eye view), but since the transform is reversed according to the same rules it probably didn't matter much in the end. 
 
-Next, I explored a few different color transforms and gradient thresholds to try to isolate the lane lines and produce a binary image with 1s (white) where a lane line exists and 0s (black) everywhere else. This was easily the most delicate part of the process, and very sensitive to lighting conditions and discolorations (not to mention those damn white cars!) on the road. I won't bore you with the details; suffice it to say this is where I spent most of my time on this project. In the end I combined a threshold on the B channel of the [Lab colorspace](https://en.wikipedia.org/wiki/Lab_color_space) to extract yellow lines and the L channel of the [HLS colorspace](https://en.wikipedia.org/wiki/HSL_and_HSV) to extract the whites. Here's what each of those looks like:
+Next, I explored a few different color transforms and gradient thresholds to try to isolate the lane lines and produce a binary image with 1s (white) where a lane line exists and 0s (black) everywhere else. This was easily the most delicate part of the process, and very sensitive to lighting conditions and discolorations (not to mention those damn white cars!) on the road. I won't bore you with the details; suffice it to say this is where I spent most of my time on this project. In the end I combined a threshold on the B channel of the [Lab colorspace](https://en.wikipedia.org/wiki/Lab_color_space) to extract yellow lines and a threshold on the L channel of the [HLS colorspace](https://en.wikipedia.org/wiki/HSL_and_HSV) to extract the whites. Here's what each of those looks like:
 
 ![alt text][im08]
 
@@ -57,21 +57,20 @@ Now, the clever bit: it would be unnecessary (and computationally expensive) to 
 
 ![alt text][im11]
 
-The peaks on the left and right halves give us a good estimate of where the lane lines start, so we can just search small windows starting from the bottom and essentially following the lane lines all the way to the top until all the pixels in each line are identified. Then a polynomial curve can be applied to the identified pixels and voilà!
+The peaks on the left and right halves give us a good estimate of where the lane lines start, so we can just search small windows starting from the bottom and essentially follow the lane lines all the way to the top until all the pixels in each line are identified. Then a polynomial curve can be applied to the identified pixels and voilà!
 
 ![alt text][im10]
 
-And not just that, but we can even more easily find pixels on consecutive frames of a video using the fit from a previous frame and searching nearby, like so:
+And not just that, but it's even easier to find pixels on consecutive frames of a video using the fit from a previous frame and searching nearby, like so:
 
 ![alt text][im12]
 
-It's just a matter of coloring in the polynomial lines and a polygon to fill the lane between them, applying the inverse perspective transform, and drawing the result back onto the original image. We also did a few simple calculations and conversions to determine the road's radius of curvature and the car's distance from the center of the lane. Here's what the final result looks like:
+It's just a matter of coloring in the polynomial lines and a polygon to fill the lane between them, applying the inverse perspective transform, and combining the result with the original image. We also did a few simple calculations and conversions to determine the road's radius of curvature and the car's distance from the center of the lane. Here's what the final result looks like:
 
 ![alt text][im14]
 
 This is the pipeline that I applied to the video below, with a bit of smoothing (integrating information from the past few previous frames) and sanity checks to reject ouliers (such as disregarding fits that aren't within a certain distance apart).
 
-Here's a [link to my video result](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/project_video_output.mp4), and here's a [bonus video with some additional diagnostic information](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/challenge_video_output_diag.mp4).
+Here's a [link to my video result](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/project_video_output.mp4), and here's a [bonus video with some additional diagnostic information](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/challenge_video_output_diag.mp4) where you can see the algorithm struggle with (and in some instances break down from) difficult lighting and road surface conditions.
 
 *Again, if it's the technical stuff you're into, [go here](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines).*
-
