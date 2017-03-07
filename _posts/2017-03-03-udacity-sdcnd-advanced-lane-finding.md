@@ -8,26 +8,26 @@ categories: udacity, self-driving car, nanodegree, project, advanced lane-findin
 *Welcome to the mom version (Hi mom!);  if jargon and mumbo jumbo is more your style then [by all means](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines), otherwise...*
 
 [//]: # (Image References)
-[im01]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/01-calibration.png "Chessboard Calibration"
-[im02]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/02-undistort_chessboard.png "Undistorted Chessboard"
-[im03]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/03-undistort.png "Undistorted Dashcam Image"
-[im04]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/04-unwarp.png "Perspective Transform"
-[im05]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/05-colorspace_exploration.png "Colorspace Exploration"
-[im06]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/09-sobel_magnitude_and_direction.png "Sobel Magnitude & Direction"
-[im07]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/11-hls_l_channel.png "HLS L-Channel"
-[im08]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/12-lab_b_channel.png "LAB B-Channel"
-[im09]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/13-pipeline_all_test_images.png "Processing Pipeline for All Test Images"
-[im10]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/14-sliding_window_polyfit.png "Sliding Window Polyfit"
-[im11]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/15-sliding_window_histogram.png "Sliding Window Histogram"
-[im12]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/16-polyfit_from_previous_fit.png "Polyfit Using Previous Fit"
-[im13]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/17-draw_lane.png "Lane Drawn onto Original Image"
-[im14]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/18-draw_data.png "Data Drawn onto Original Image"
+[im01]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/01-calibration.png?raw=true "Chessboard Calibration"
+[im02]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/02-undistort_chessboard.png?raw=true "Undistorted Chessboard"
+[im03]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/03-undistort.png?raw=true "Undistorted Dashcam Image"
+[im04]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/04-unwarp.png?raw=true "Perspective Transform"
+[im05]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/05-colorspace_exploration.png?raw=true "Colorspace Exploration"
+[im06]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/09-sobel_magnitude_and_direction.png?raw=true "Sobel Magnitude & Direction"
+[im07]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/11-hls_l_channel.png?raw=true "HLS L-Channel"
+[im08]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/12-lab_b_channel.png?raw=true "LAB B-Channel"
+[im09]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/13-pipeline_all_test_images.png?raw=true "Processing Pipeline for All Test Images"
+[im10]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/14-sliding_window_polyfit.png?raw=true "Sliding Window Polyfit"
+[im11]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/15-sliding_window_histogram.png?raw=true "Sliding Window Histogram"
+[im12]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/16-polyfit_from_previous_fit.png?raw=true "Polyfit Using Previous Fit"
+[im13]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/17-draw_lane.png?raw=true "Lane Drawn onto Original Image"
+[im14]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/18-draw_data.png?raw=true "Data Drawn onto Original Image"
 
 Project number four for Term 1 of the Udacity Self-Driving Car Engineer Nanodegree built upon [the first project](http://jeremyshannon.com/2016/12/23/udacity-sdcnd-finding-lane-lines.html), more so than the [second](http://jeremyshannon.com/2017/01/13/udacity-sdcnd-traffic-sign-classifier.html) and [third](http://jeremyshannon.com/2017/02/10/udacity-sdcnd-behavioral-cloning.html) projects. While that might seem obvious because they both involve finding lane lines, the reason for this *under the hood* (har har) is that while projects two and three introduced us to the hot-ass newness of deep learning to almost write our code for us, projects one and four rely on more traditional computer vision techniques to get very explicit about how we go from input to output. It's almost a let down - like trading a keyboard in for a pencil - but *people are saying* (that's my attempt at being presedential) that companies still rely on these techniques, so it's definitely worth learning (and still fun and challenging) and the OpenCV library is the one doing all the heavy lifting.
 
 "So let's grab a dashcam find some lanes!" you're saying. Well, hold on just a second, Tex. You can't just start finding lanes all willy-nilly. That camera you're using? It distorts the images. You probably couldn't even tell, but look:
 
-![alt text](https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/01-calibration.png)
+![alt text][im02]
 
 Thankfully this can be corrected (for an individual camera/lens) with OpenCV and a handful of photos of chessboards. Check it out:
 
