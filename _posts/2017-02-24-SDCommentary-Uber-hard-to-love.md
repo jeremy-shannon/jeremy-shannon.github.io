@@ -4,6 +4,8 @@ title:  "Self-Driving Commentary: Uber is Just Too Hard to Love"
 date:   2017-02-24 21:00:00 
 categories: SDCommentary, Uber, controversy, misogyny
 ---
+*This post belongs to a series I'm calling Self-Driving Commentary, in which I spout and ramble on whatever is rattling around in my head pertaining to self-driving cars. Enjoy!*
+
 I really want to love Uber. I do. It's the unicorn upon which all my hopes and dreams for a driverless future once rode, but one too many kicks to my ethics gland and I'm ready to pin my hopes on some other donkey. 
 
 Uber's business model is revolutionary - yeah, you heard it here first. Combine UberPOOL and self-driving cars at scale and you have almost exactly what I'm dying to see as the future of transportation. And Uber is the first company I've seen to make meaningful strides in that direction.
