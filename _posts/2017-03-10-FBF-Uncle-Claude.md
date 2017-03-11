@@ -40,7 +40,7 @@ Digging into the station documentation, I found the tidbit of info that confirme
 
 ![Alt Text][im05]
 
-Yuck! That reconstructed signal is *nothing* like the original. Incidentally, this is the exact phenomenon that makes wheels or helicopter rotors seem to spin slow, or backwards, or [not at all](https://www.youtube.com/watch?v=R-IVw8OKjvQ).
+Yuck! That reconstructed signal is *not* like the original. Incidentally, this is the exact phenomenon that makes wheels or helicopter rotors seem to spin slowly, or backwards, or [not at all](https://www.youtube.com/watch?v=R-IVw8OKjvQ) in video.
 
 I changed the sample width to two seconds (a sampling rate of 512 Hz) and see how much more faithfully it captures the signal:
 
