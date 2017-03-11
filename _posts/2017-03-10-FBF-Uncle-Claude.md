@@ -32,13 +32,13 @@ That's the wide-angle view; let's zoom in:
 
 The problem was that the station measured the peak voltage just a *little* lower than expected. But it looked fine to me on the scope! What was going on here? I banged my head against it for a few days. I looked up the history of problems with this test. This wasn't the first time anyone had encountered it - *twice* before engineers investigated it, only to have the problem magically fix itself (i.e. they gave up). 
 
-Then I had a breakthrough. Call it tenacity if you want, but I freely admit it was luck. I had the signal on my scope, with the peak voltage displayed correctly. Then I just happened to dial the "SEC/DIV" knob (which changes the time scale and squishes/expands the signal horizontally) to a point where several periods of the signal were in view (you might say I zoomed *waay* out)... **and the peak voltage dipped!** I immediately knew what I was dealing with: aliasing!
+Then I had a breakthrough. Call it tenacity if you want, but I freely admit it was luck. I had the signal on my scope, with the peak voltage displayed correctly. Then I just happened to dial the "SEC/DIV" knob (which changes the time scale and squishes/expands the signal horizontally) to a point where several periods of the signal were in view (you might say I zoomed *waay* out)... *and the peak voltage dipped!* I immediately knew what I was dealing with: aliasing.
 
-Digging into the station documentation, I found the tidbit of info that confirmed my suspicions: any measurement was based upon 1024 samples. Always. It would try to infer an appropriate sample width (or timeframe) to capture a representative signal from which to calculate measurements, but you could also specify the sample width manually. In the case of this test, the sample width was set to five seconds. This equates to a sampling rate of 204.8 Hz (1024 samples / 5.0 seconds). That's not going to faithfully capture the 400-Hz sine wave according to Uncle Claude! He always told me growing up (c'mon, let me fantasize), "Jeremy, boy. You've always got to sample at *at least* twice the rate of the highest frequency of the signal you're trying to capture." See how the signal constructed based on that sampling rate is aliased to hell and back?
+Digging into the station documentation, I found the tidbit of info that confirmed my suspicions: all measurements were based upon 1024 samples. Always. It would try to infer an appropriate sample width (or timeframe) to capture a representative signal from which to calculate measurements, but you could also specify the sample width manually. In the case of this test, the sample width was set to five seconds. This equates to a sampling rate of 204.8 Hz (1024 samples / 5.0 seconds). That's not going to faithfully capture the 400-Hz sine wave; not according to Uncle Claude! He always told me growing up (c'mon, let me fantasize), "Jeremy, boy. You've always got to sample at *at least* twice the rate of the highest frequency of the signal you're trying to capture." See how the signal constructed based on that sampling rate is aliased to hell and back?
 
 ![Alt Text][im04]
 
-Zooming in, you can see that the sampling points on the aliased signal are also valid points on the true signal.
+Zooming in, you can see that the sampling points on the aliased signal come from valid points on the true signal.
 
 ![Alt Text][im05]
 
@@ -50,4 +50,4 @@ I changed the sample width to two seconds (a sampling rate of 512 Hz) and see ho
 
 ![Alt Text][im03]
 
-It still wasn't reconstructing the true signal, but I had to be sure to capture a full period of the 0.5-Hz triangle wave and the peak voltage of the resulting reconstructed signal was good enough to pass the test. Yippie!
+It still wasn't faithfully reconstructing the true signal, but I wanted to be sure to capture a full period of the 0.5-Hz triangle wave, and the peak voltage of the resulting reconstructed signal was good enough to pass the test. Yippie!
