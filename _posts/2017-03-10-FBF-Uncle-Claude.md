@@ -4,6 +4,23 @@ title:  "FBF: That Time Uncle Claude Saved my Bacon"
 date:   2017-03-10 21:00:00 
 categories: FBF, Shannon, sampling, aliasing
 ---
+
+[//]: # (Image References)
+[im01]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/01-calibration.png?raw=true "Chessboard Calibration"
+[im02]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/02-undistort_chessboard.png?raw=true "Undistorted Chessboard"
+[im03]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/03-undistort.png?raw=true "Undistorted Dashcam Image"
+[im04]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/04-unwarp.png?raw=true "Perspective Transform"
+[im05]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/05-colorspace_exploration.png?raw=true "Colorspace Exploration"
+[im06]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/09-sobel_magnitude_and_direction.png?raw=true "Sobel Magnitude & Direction"
+[im07]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/11-hls_l_channel.png?raw=true "HLS L-Channel"
+[im08]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/12-lab_b_channel.png?raw=true "LAB B-Channel"
+[im09]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/13-pipeline_all_test_images.png?raw=true "Processing Pipeline for All Test Images"
+[im10]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/14-sliding_window_polyfit.png?raw=true "Sliding Window Polyfit"
+[im11]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/15-sliding_window_histogram.png?raw=true "Sliding Window Histogram"
+[im12]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/16-polyfit_from_previous_fit.png?raw=true "Polyfit Using Previous Fit"
+[im13]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/17-draw_lane.png?raw=true "Lane Drawn onto Original Image"
+[im14]: https://github.com/jeremy-shannon/CarND-Advanced-Lane-Lines/blob/master/output_images/18-draw_data.png?raw=true "Data Drawn onto Original Image"
+
 *In my Flashback Friday series I'm going to reach deep into my memory (what's left of it) for some wins. Who knows what I'll find in there?!*
 
 ![Claude Shannon](xxxxxxxxxx)
