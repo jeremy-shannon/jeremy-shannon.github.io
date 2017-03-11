@@ -38,12 +38,16 @@ Digging into the station documentation, I found the tidbit of info that confirme
 
 ![Alt Text][im04]
 
+Zooming in, you can see that the sampling points on the aliased signal are also valid points on the true signal.
+
 ![Alt Text][im05]
 
-Yuck! That reconstructed signal is *not* like the original. Incidentally, this is the exact phenomenon that makes wheels or helicopter rotors seem to spin slowly, or backwards, or [not at all](https://www.youtube.com/watch?v=R-IVw8OKjvQ) in video.
+Yuck! That reconstructed signal is *not* like the original. The reson I wasn't seeing this effect on the scope until I zoomed far out is because it sampled at a much higer rate than the test station. Incidentally, this is the exact phenomenon that makes wheels or helicopter rotors seem to spin slowly, or backwards, or [not at all](https://www.youtube.com/watch?v=R-IVw8OKjvQ) in video.
 
 I changed the sample width to two seconds (a sampling rate of 512 Hz) and see how much more faithfully it captures the signal:
 
 ![Alt Text][im02]
 
 ![Alt Text][im03]
+
+It still wasn't reconstructing the true signal, but I had to be sure to capture a full period of the 0.5-Hz triangle wave and the peak voltage of the resulting reconstructed signal was good enough to pass the test. Yippie!
