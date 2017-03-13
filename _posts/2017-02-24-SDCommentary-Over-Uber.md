@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Self-Driving Commentary: Uber is Just Too Hard to Love"
+title:  "Self-Driving Commentary: Over Uber"
 date:   2017-02-24 21:00:00 
 categories: SDCommentary, Uber, controversy, misogyny
 ---
