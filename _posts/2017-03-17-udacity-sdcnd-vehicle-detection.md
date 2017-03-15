@@ -25,18 +25,35 @@ categories: udacity, self-driving car, nanodegree, project, vehicle detection, m
 [video2]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/test_video_out_2.mp4
 [video3]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/project_video_out.mp4
 
-![alt text][image1]
-![alt text][image2]
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-![alt text][image6]
-![alt text][image6a]
-![alt text][image7]
-![alt text][image8]
-![alt text][image9]
-![alt text][image10]
-![alt text][image11]
-![alt text][image12]
+...And just like that I've completed Project 5, and with it Term 1, of the Udacity Self-Driving Car Engineer Nanodegree - hooray! I'm already counting the days (eight, at the moment) until Term 2 begins and trying to decide the best way to sustain my momentum, starting with this here recap of Project 5 - Vehicle Detection.
+
+The interesting thing to me about this project, in particular, was that it sort of occupied the middle ground between the [first](http://jeremyshannon.com/2016/12/23/udacity-sdcnd-finding-lane-lines.html) and [fourth](http://jeremyshannon.com/2017/03/03/udacity-sdcnd-advanced-lane-finding.html) projects and the [second](http://jeremyshannon.com/2017/01/13/udacity-sdcnd-traffic-sign-classifier.html) and [third](http://jeremyshannon.com/2017/02/10/udacity-sdcnd-behavioral-cloning.html) projects. The first and fourth projects used old-school computer vision techniques and explicitly defined steps to produce an output (highlighting the location of lane lines), whereas the second and third projects employed deep learning's hot-ass newness (I might have to trademark that) to sort of let the program figure out on its own based on a ton of examples. 
+
+The goal of the project was to identify vehicles in dashcam video. While there are already deep learning implementations (e.g. [YOLO](https://pjreddie.com/darknet/yolo/) and [SSD](http://www.cs.unc.edu/~wliu/papers/ssd.pdf)) that utilize convolutional neural networks and can efficiently and reliably identify vehicles given a full video frame, our assignment was to use a more... classic approach and train a traditional machine learning classifer on images of cars and non-cars and then run a sliding window search on each video frame to identify the cars. Here are some sample images from the dataset we were given to train our classifier with:
+
+![Sample Images][image1]
+
+Now, training a classifer on raw images is unnecessary and would probably take forever. There are better ways to extract features from an image to train a classifier, and the lectures presented three: grouping color features into bins spatially, histograms of color, and Histogram of Oriented Gradients (HOG) features. Here's an example of HOG features, which captures and groups edges in the image and happens to be popular for facial recognition:
+
+![HOG Examples][image2]
+
+Using HOG features alone and a [Linear SVM](https://en.wikipedia.org/wiki/Support_vector_machine#Linear_SVM) classifier, I was able to get 98.17% test accuracy on the dataset. I could have improved that by combining other feature extraction methods, but in the interest of performance I carried on to the next step - the sliding window search. This involves running every square patch of the image (with some overlap) through the classifier to determine if there's a car or not. If the patch is 64 x 64 pixels and the overlap is 50%, that means around 850 patches will be classfied. Here's what my first attempt at that looked like, using a 96 x 96 patch and 50% overlap:
+
+![Bounding Boxes - First Try][image3]
+
+Actually pretty good! Still, there were improvements to be made. Foremost, obviously there aren't going to be any cars in the sky (yet!) so that area of the image can be eliminated, and cars near the horizon will be smaller than cars in the foreground. Here are the areas and window scales that I searched in the end:
+
+![1x Boxes][image4]
+![1.5x Boxes][image5]
+![2x Boxes][image6]
+![3x Boxes][image6a]
+
+
+![Bounding Boxes - Multiple Scales][image7]
+![Heatmap][image8]
+![Thresholded Heatmap][image9]
+![Heatmap Labels][image10]
+![Bounding Boxes - Label Bounds][image11]
+![Pipeline - All Test Images][image12]
 
 *Again, if it's the technical stuff you're into, [go here](https://github.com/jeremy-shannon/CarND-Vehicle-Detection).*
