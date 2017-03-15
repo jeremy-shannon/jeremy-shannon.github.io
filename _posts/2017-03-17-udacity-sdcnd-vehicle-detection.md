@@ -48,6 +48,7 @@ Actually pretty good! Still, there were improvements to be made. Foremost, obvio
 ![2x Boxes][image6]
 ![3x Boxes][image6a]
 
+(...to be continued)
 
 ![Bounding Boxes - Multiple Scales][image7]
 ![Heatmap][image8]
