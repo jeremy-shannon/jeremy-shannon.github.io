@@ -8,10 +8,10 @@
 # Site settings
 title: JeremyShannon.com
 email: jeremyeshannon@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Jeremy Shannon - Oklahoma City, OK electronics engineer (automated testing)
-  turned web developer experienced in .NET Framework and NodeJS, with some
-  Wordpress and iOS sprinkled in as well. Now I'm all about SELF-DRIVING CARS.'
+description:  #> # this means to ignore newlines until "baseurl:"
+  Udacity Self-Driving Car Engineer Nanodegree Fall 2017 <br>
+  MS in Electrical and Computer Engineering <br>
+  15 years experience as electronics engineer and computer scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:year/:month/:day/:title.html
 #PRODUCTION
