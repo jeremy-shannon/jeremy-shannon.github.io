@@ -6,17 +6,23 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//font-family: 'Merriweather', serif;
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Oswald', sans-serif;
+
+$base-font-family: 'Merriweather', serif; //"Helvetica Neue", Helvetica, Arial, sans-serif;
+$secondary-font-family: 'Oswald', sans-serif;
+$secondary-font-weight: 300;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
-$text-color:       #111;
+$text-color:       #020F48;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #00ADEF;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -25,8 +31,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm:          540px;
+$on-laptop:        892px;
 
 
 
