@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="row">
+  <div class="col-sm-4 sidebar">
+    <div class="sidebar-content">
+    Hi there! My name is <span class="my-name">Jeremy Shannon</span> and I'm learning to become a self-driving car engineer. I have a master's degree in electrical and computer engineering, and fifteen years of experience working as an electronics engineer and software developer.<br>
+    </div>
+    <a class="sidebar-link" href="./about/">MORE ABOUT ME  &gt;&gt;</a>
+  </div>
+  <div class="main col-sm-8">
+    <h1 class="page-heading">Latest Blog Post:</h1>
+    <div class="blog-index">  
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    </div>
+  </div>
+</div>
+<div class="row big-quote">
+  <em><span class="white-text">I hope to make a career for myself in the self-driving car industry.</span> On my first visit to New York City I became enthralled with public transit and how instrumental a comprehensive transit system can be as a public service. While I’m compelled by the relief to congestion and other benefits self-driving cars promise for such dense cities, I find the potential benefits to extremely low density cities like my home of Oklahoma City, where car ownership is all but a necessity, equally compelling. The poor and handicapped are forced to depend on an inefficient and unreliable transit system, and the sprawl renders a comprehensive system cost prohibitive. That’s where, in my imagination, self-driving cars come in.</em>
 </div>

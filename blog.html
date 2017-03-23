@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="row home">
+  <div class="col-sm-4">
+    <h1 class="page-heading">More Posts</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  <div class="col-sm-8">
+    <h1 class="page-heading">Latest Blog Post:</h1>
+    <div class="blog-index">  
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      {% include post_detail_full.html %}
+    </div>
+  </div>
+</div>
