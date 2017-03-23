@@ -1,44 +1,42 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+  <hr>
+  <div class="row">
+    <div class="col-sm-2 headshot">
+      <img src="/images/Jeremy_BW_small.jpg">
+    </div>
+    <div class="col-sm-10">
+      <div class="post-title">
+        What is there to say about Jeremy Shannon?
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
+      <div class="post-content">
+        {{ site.description }}
+      </div>
+      <div class="row social-media-list">
+        <div class="col-sm-4 col-lg-3">
           {% if site.github_username %}
-          <li>
             {% include icon-github.html username=site.github_username %}
-          </li>
           {% endif %}
-
+        </div>
+        <div class="col-sm-4 col-lg-3">
           {% if site.twitter_username %}
-          <li>
             {% include icon-twitter.html username=site.twitter_username %}
-          </li>
           {% endif %}
-
+        </div>          
+        <div class="col-sm-4 col-lg-3">
           {% if site.linkedin_username %}
-          <li>
             {% include icon-linkedin.html username=site.linkedin_username %}
-          </li>
           {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        </div>      
+        <div class="col-lg-3">
+        </div> 
       </div>
     </div>
-
   </div>
-
+  <div class="container">
+    <div class="bottom-border-bg">
+    </div>
+    <div class="bottom-border">
+      Currently seeking employment in autonomous vehicles. <a href="mailto:{{ site.email }}">Contact me &gt;&gt;</a></li>
+    </div>
+  </div>
 </footer>

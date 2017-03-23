@@ -1,0 +1,11 @@
+<span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+<h1 class="post-title">
+
+{% if post.title %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</h1>
+<div class="entry-content">{{ content | truncatewords:100}} 
+    <a class="read-more" href="{{ post.url }}"><em>Read more</em> &gt;&gt;</a>
+</div>
+
