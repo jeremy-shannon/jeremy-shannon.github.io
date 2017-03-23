@@ -8,19 +8,19 @@ categories: udacity, self-driving car, nanodegree, project, vehicle detection, m
 *Welcome to the "mom report" (Hi mom!); if jargon and mumbo jumbo are more your style then [maybe this is what you're after](https://github.com/jeremy-shannon/CarND-Vehicle-Detection), otherwise enjoy!*
 
 [//]: # (Image References)
-[image1]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/01_random_data_grid.png
-[image2]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/02_hog_visualization.png
-[image3]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/03_detections.png
-[image4]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/04_boxes_1.png
-[image5]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/05_boxes_2.png
-[image6]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/06_boxes_3.png
-[image6a]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/06a_boxes_4.png
-[image7]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/07_all_detections.png
-[image8]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/08_heatmap.png
-[image9]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/09_heatmap_threshold.png
-[image10]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/10_label_heatmap.png
-[image11]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/11_final_boxes.png
-[image12]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/12_all_test_detects.png
+[image1]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/01_random_data_grid.png?raw=true
+[image2]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/02_hog_visualization.png?raw=true
+[image3]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/03_detections.png?raw=true
+[image4]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/04_boxes_1.png?raw=true
+[image5]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/05_boxes_2.png?raw=true
+[image6]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/06_boxes_3.png?raw=true
+[image6a]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/06a_boxes_4.png?raw=true
+[image7]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/07_all_detections.png?raw=true
+[image8]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/08_heatmap.png?raw=true
+[image9]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/09_heatmap_threshold.png?raw=true
+[image10]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/10_label_heatmap.png?raw=true
+[image11]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/11_final_boxes.png?raw=true
+[image12]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/output_images/12_all_test_detects.png?raw=true
 [video1]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/test_video_out.mp4
 [video2]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/test_video_out_2.mp4
 [video3]: https://github.com/jeremy-shannon/CarND-Vehicle-Detection/blob/master/project_video_out.mp4
