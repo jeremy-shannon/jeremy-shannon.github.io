@@ -67,7 +67,7 @@ footer > hr {
     font-family: $secondary-font-family;
     font-size: 1em;
     @include media-query($on-palm) {
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
     a {
        text-transform: uppercase;
