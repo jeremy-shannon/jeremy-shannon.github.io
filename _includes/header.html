@@ -15,11 +15,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+          <li><a class="page-link" href="/about/">About</a></li>
+          <li><a class="page-link" href="/blog/">Blog</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
