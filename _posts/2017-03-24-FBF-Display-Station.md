@@ -21,7 +21,7 @@ Way back in the year 2014 I had the privilege of working on probably one of the 
 
 *What's up, man?*
 
-And the I/O terminal... the inimitable Hewlett-Packard 2645A: 
+And the I/O terminal... the inimitable (or *was* it?) Hewlett-Packard 2645A: 
 
 ![Alt Text][im03]
 
