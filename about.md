@@ -24,6 +24,8 @@ permalink: /about/
 
 > AWEEEESOME!
 
+> Hey Jeremy, Thank you so much for posting about your experience on P3.
+
 # The main points...
 
 - Udacity Self-Driving Car Engineer Nanodegree, October 2017
