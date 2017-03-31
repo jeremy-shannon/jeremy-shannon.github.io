@@ -14,5 +14,14 @@ I kind of can't believe I've already finished Term 1 of the Nanodegree. It feels
 
 It's been a hell of a ride so far, and I'm already working on Term 2 thanks to Udacity allowing us December students who finished early to start Term 2 with the November cohort. I joined a team doing [the Udacity Didi Challenge](https://www.udacity.com/didi-challenge), and I'm still blogging (I promise!) and consuming all the AV/ML/AI/DL/what-have-ya news. I get the feeling that when Term 3 ends I won't know what to do with myself!
 
+Anyway, Term 1... takeaways? Let's see...
 
+- The pace wasn't quite grueling, but it was clear that most of us weren't prepared for it. Udacity obviously underestimated when they said it should require around ten hours a week, but considering we were part of the inaugural group of students I don't think we had grounds for surprise or disappointment when it turned out to require far more than that. I'm thankful I had resolved to devote plenty of time to it. 
+- Term 1 was devoted to computer vision and deep learning. I didn't realize going in that these are widely considered two conflicting schools of thought - the old way (computer vision) and the new way (deep learning) of doing things. 
+- The OpenCV computer vision library is your one-stop-shop for all of your computer vision needs. We used the hell out of that library all term, and it's incredibly powerful. It felt like magic when a few simple method calls identified highway lane lines in Project 1, but it felt like very-much-not-magic when any change to the environment caused the whole processing pipeline to break down. It became apparent that the computer vision approach would be incredibly difficult to implement in a way that responds well to all potential circumstances (e.g. rain, snow, night). 
+- Deep learning - now *that* really *is* magic. Want your thing to work in the rain? Give it some rainy data. Night? Give it night data (or, hell - just darken your daytime data artificially). It'll figure it out. Here's the catch, though: collecting and preparing all of that data, then countless hours trying to find a model that works (hopefully there's already one out there you can borrow from) and tuning it to achieve acceptable results - it's no small task, for sure. But for a *big* problem like, (oh... let's just say...) cars that drive themselves, it very well may be your best bet.
+- Along the way I picked up all sorts of new skills: Python, Numpy, TensorFlow, Keras, OpenCV, Jupyter, AWS EC2, and probably a few others.
 
+I've learned so much, and yet I feel like we've only scratched the surface. I suppose that's just the way it goes, though. Like Einstein said,
+
+> The more I learn, the more I realize how much I don't know.  
