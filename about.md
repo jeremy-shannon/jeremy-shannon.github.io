@@ -12,6 +12,8 @@ permalink: /about/
 - 15 years experience as an electronics engineer and computer scientist
 - Unbridled, contagious enthusiasm
 
+---
+
 ### People are talking...
 
 > You got the trusty Jeremy. <br><span class="attrib">-a teammate upon finding I'd been recruited for the Didi Challenge</span>
@@ -33,6 +35,8 @@ permalink: /about/
 > AWEEEESOME!
 
 > Hey Jeremy, Thank you so much for posting about your experience on P3.
+
+---
 
 ### ...and the full story...
 
