@@ -4,9 +4,17 @@ title: About
 permalink: /about/
 ---
 
+### The main points...
+
+- Udacity Self-Driving Car Engineer Nanodegree, October 2017
+- Master's degree in Electrical and Computer Engineering, University of Oklahoma, May 2014
+- Bachelor's degree in Computer Engineering, University of Oklahoma, December 2001
+- 15 years experience as an electronics engineer and computer scientist
+- Unbridled, contagious enthusiasm
+
 ### People are talking...
 
-> You got the trusty Jeremy.
+> You got the trusty Jeremy. <br><span class="attrib">-a teammate upon finding I'd been recruited for the Didi Challenge</span>
 
 > Your blog post really saved me on Project 4.
 
@@ -25,14 +33,6 @@ permalink: /about/
 > AWEEEESOME!
 
 > Hey Jeremy, Thank you so much for posting about your experience on P3.
-
-### The main points...
-
-- Udacity Self-Driving Car Engineer Nanodegree, October 2017
-- Master's degree in Electrical and Computer Engineering, University of Oklahoma, May 2014
-- Bachelor's degree in Computer Engineering, University of Oklahoma, December 2001
-- 15 years experience as an electronics engineer and computer scientist
-- Unbridled, contagious enthusiasm
 
 ### ...and the full story...
 
