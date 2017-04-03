@@ -145,6 +145,11 @@ blockquote{
   -moz-box-shadow: 2px 2px 15px #ccc;
   -webkit-box-shadow: 2px 2px 15px #ccc;
   box-shadow: 2px 2px 15px #ccc;
+    
+  .attrib {
+      font-size: 10px;
+      text-align: right;
+  }
 }
 
 blockquote::before{
