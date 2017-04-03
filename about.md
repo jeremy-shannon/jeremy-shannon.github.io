@@ -13,6 +13,7 @@ permalink: /about/
 - Unbridled, contagious enthusiasm
 
 ---
+<br>
 
 ### People are talking...
 
@@ -37,6 +38,7 @@ permalink: /about/
 > Hey Jeremy, Thank you so much for posting about your experience on P3.
 
 ---
+<br>
 
 ### ...and the full story...
 
