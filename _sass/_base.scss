@@ -37,7 +37,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+hr {
+    margin-bottom: 15px;
+    border-top: 1px solid $text-color;
+}
 
 /**
  * Images
