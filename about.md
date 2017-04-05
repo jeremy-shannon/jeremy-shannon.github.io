@@ -16,13 +16,13 @@ permalink: /about/
 
 ### People are talking...
 
-> You got the trusty Jeremy. <br><span class="attrib">-a teammate upon finding I'd been recruited for the Didi Challenge</span>
+> You got the trusty Jeremy. <br><span class="attrib">- a teammate upon finding I'd been recruited for the Didi Challenge</span>
 
 > Your blog post really saved me on Project 4.
 
-> Your article is excellent. I like your focus on visually seeing the data before doing anything with it. <br><span class="attrib">-classmate referring to [my Project 2 write-up](https://medium.com/@jeremyeshannon/udacity-self-driving-car-nanodegree-project-2-traffic-sign-classifier-f52d33d4be9f)</span>
+> Your article is excellent. I like your focus on visually seeing the data before doing anything with it. <br><span class="attrib">- classmate referring to [my Project 2 write-up](https://medium.com/@jeremyeshannon/udacity-self-driving-car-nanodegree-project-2-traffic-sign-classifier-f52d33d4be9f)</span>
 
-> Your articles are amazing btw! <br><span class="attrib">-a classmate's [Term 1 review](https://medium.com/@harish3110/vision-needed-d2b0c7fd2387), linking to [my Project 2 write-up](https://medium.com/@jeremyeshannon/udacity-self-driving-car-nanodegree-project-2-traffic-sign-classifier-f52d33d4be9f)</span>
+> Your articles are amazing btw! <br><span class="attrib">- a classmate's [Term 1 review](https://medium.com/@harish3110/vision-needed-d2b0c7fd2387), linking to [my Project 2 write-up](https://medium.com/@jeremyeshannon/udacity-self-driving-car-nanodegree-project-2-traffic-sign-classifier-f52d33d4be9f)</span>
 
 > G'day Jeremy, I just read [your blog on Medium about P1](https://medium.com/udacity/udacity-self-driving-car-nanodegree-project-1-finding-lane-lines-719ac1adbed9), and loved the video! ... Nice work!
 
@@ -30,11 +30,11 @@ permalink: /about/
 
 > Also i must let you know Jeremy that i love reading your blogs and approach about these projects. I always find your explanation easy to follow! Thanks for always detailing things out!
 
-> I like your enthusiasm a lot!  <br><span class="attrib">-classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
+> I like your enthusiasm a lot!  <br><span class="attrib">- classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
 
-> Aww, that's super cool! Now, you have inspired me to play with my video some more. :) <br><span class="attrib">-classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
+> Aww, that's super cool! Now, you have inspired me to play with my video some more. :) <br><span class="attrib">- classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
 
-> AWEEEESOME! <br><span class="attrib">-classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
+> AWEEEESOME! <br><span class="attrib">- classmate reaction to my [video summary of Project 4](https://youtu.be/Z4TxNrBKJew)</span>
 
 > Hey Jeremy, Thank you so much for posting about [your experience on P3](http://jeremyshannon.com/2017/02/10/udacity-sdcnd-behavioral-cloning.html).
 
