@@ -42,5 +42,12 @@ permalink: /about/
 
 ### ...and the full story...
 
-Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers. You wouldn't be incorrect, though - it took me half of a career to find my passion. 
-Now, that's not to say I didn't have goals up to this point. In my twenties I thought I might one day play drums in a famous rock band (hell, semi-famous would have sufficed), and what most might consider a career was just a way to bankroll it. Somehow turning thirty made the idea of spending my days mostly cooped up in a van eating Funyons a *little* less appealing...
+Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers. You wouldn't be incorrect, though - it took me almost half of a career to find my passion.
+
+Now, that's not to say I didn't have goals up to this point. In my twenties I thought I might one day play drums in a famous rock band (hell, semi-famous would have sufficed), and what most might consider a career was to me just a way to bankroll it. Somehow turning thirty made the idea of spending my days mostly cooped up in a van eating Funyons a *little* less appealing.
+
+So then I went back to school to get a master's degree, partly for lack of anything better to do and partly because I'd be a fool *not* to since my employer offered to pay for the whole thing, but mostly because I needed a challenge - a break from the monotony and an opportunity to prove to myself that I could still do hard things. And I rocked it. I came out with a 4.0 GPA, a [kickass robot](http://jeremyshannon.com/2016/05/20/sumo-duel-bot.html) to my name, and a [conference paper](http://ieeexplore.ieee.org/document/6935147/?reload=true). It was in the process of working on my thesis that I discovered my affinity for software development.
+
+Software wasn't new to me, by any means, but modern languages and tools were. The creativity and immediacy of it thrilled me, and I enjoyed it thoroughly for a few years while fulfilling my service contract (for the master's degree). It was right about the time I'd decided I needed a new challenge, and wondered how possible it would be for me to shift into the autonomous vehicle industry, that Udacity announced its [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)...
+
+And that's where this blog begins.
