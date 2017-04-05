@@ -16,7 +16,7 @@ permalink: /about/
 
 ### People are talking...
 
-> You got the trusty Jeremy. <br><span class="attrib">- a teammate upon finding I'd been recruited for the Didi Challenge</span>
+> You got the trusty Jeremy. <br><span class="attrib">- a teammate upon finding I'd been recruited for the [Didi Challenge](https://www.udacity.com/didi-challenge)</span>
 
 > Your blog post really saved me on Project 4.
 
