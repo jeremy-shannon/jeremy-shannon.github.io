@@ -42,7 +42,7 @@ permalink: /about/
 
 ### The full story...
 
-Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers. You wouldn't be incorrect, though - it took me almost half of a career to find my true calling.
+Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers who've gone on to accomplish great things. You wouldn't be incorrect, though - it took me almost half of a career to find my true calling.
 
 Now, that's not to say I didn't have goals up to this point. In my twenties I thought I might one day play drums in a famous rock band (hell, semi-famous would have sufficed), and a stable career with the Air Force as an electronics engineer was a great way to bankroll it. Somehow turning thirty made the idea of spending my days mostly cooped up in a van eating Funyuns a *little* less appealing.
 
