@@ -40,7 +40,7 @@ permalink: /about/
 
 ---
 
-### ...and the full story...
+### The full story...
 
 Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers. You wouldn't be incorrect, though - it took me almost half of a career to find my true calling.
 
