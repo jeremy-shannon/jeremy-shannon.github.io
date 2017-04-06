@@ -87,6 +87,13 @@ footer > hr {
 /**
  * Page content
  */
+
+#my-resume {
+    font-family: $secondary-font-family; 
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
 .page-content {
     margin-top: 50px;
     padding: $spacing-unit 0;
