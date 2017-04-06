@@ -52,7 +52,7 @@ footer > hr {
 
 .social-media-list {
     padding: 5px 0px;   
-    div -> a {
+    div > a > .username {
         font-family: $secondary-font-family; 
         font-weight: 300;
         font-size: 1.2em;
