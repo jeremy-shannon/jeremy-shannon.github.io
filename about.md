@@ -40,16 +40,16 @@ permalink: /about/
 
 ---
 
-### The full story...
+### The story so far...
 
-Sure, you can call me a late bloomer if it makes you feel better, but there have certainly been *later* bloomers who've gone on to accomplish great things. You wouldn't be incorrect, though - it took me almost half of a career to find my true calling.
+Sure, you can call me a late bloomer (if it makes you feel better), but there have certainly been *later* bloomers who've gone on to accomplish great things. You wouldn't be incorrect, though - it took me almost half of a career to find my true calling.
 
-Now, that's not to say I didn't have goals up to this point. In my twenties I thought I might one day play drums in a famous rock band (hell, semi-famous would have sufficed), and a stable career with the Air Force as an electronics engineer was a great way to bankroll it. Somehow turning thirty made the idea of spending my days mostly cooped up in a van eating Funyuns a *little* less appealing.
+Now, that's not to say I didn't have goals up to this point. In my twenties I thought I might one day play drums in a famous rock band (hell, semi-famous would have sufficed), and a stable career with the Air Force as an electronics engineer was a great way to bankroll it. When I turned thirty, though, something snapped in my brain and suddenly the idea of spending my days mostly cooped up in a van eating Funyuns became a *little* unappealing.
 
 I needed something new to focus my energy on, so I went back to school to get a master's degree - partly because my employer generously offered to pay for it, but mostly because I needed the challenge - a chance to prove to myself that I could still do hard things. And I rocked it. I came out with a 4.0 GPA, a [kickass robot](http://jeremyshannon.com/2016/05/20/sumo-duel-bot.html) to my name, and a [conference paper](http://ieeexplore.ieee.org/document/6935147/?reload=true). 
 
 It was while working on my thesis that I discovered my affinity for software development. Software wasn't new to me, by any means, but modern languages and tools were. The creativity and immediacy of it thrilled me, and I thoroughly enjoyed coding applications for a few years while fulfilling my service contract (for the master's degree). 
 
-I've now put fifteen years in with the federal goverment, and I can't help but feel that there must be something *more* for me. I found myself wondering aloud how possible it would be for me to shift into the autonomous vehicle industry, and right about that time Udacity announced its [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive).
+I've now put fifteen years in with the federal goverment, and I can't help but feel that there must be something *more* for me. I found myself wondering aloud how possible it would be for me to merge into the autonomous vehicle industry - working on the bleeding edge of technology, with a brilliant team just as excited as I am about ushering in the next great revolution in mobility. Right about that time Udacity announced its [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive).
 
-That's where this blog begins...
+And that's where this blog begins...
