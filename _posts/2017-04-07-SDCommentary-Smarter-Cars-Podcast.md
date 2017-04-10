@@ -16,7 +16,7 @@ The first episode launched March 31, and it was nothing short of fantastic (seco
 
 *See, honey? Number two on my list, NOT number one. ;D*
 
-Anyway, on the first episode host [Michele Kyrouz](https://medium.com/@michelekyrouz) talks to Senior Research Fellow with the Technology Policy Program at the Mercatus Center at George Mason University, [Adam Thierer](https://www.mercatus.org/adam-thierer) about "the role of government in regulating autonomous vehicles." Adam advocates for "[Permissionless Innovation](http://permissionlessinnovation.org/)" (that's the title of his book) and a sort of "soft regulation" whereby governments meet with innovators to impart a wish list of behavioral guidelines rather than impose preemptive regulations as to not stifle innovation.
+Anyway, on the first episode host [Michele Kyrouz](https://medium.com/@michelekyrouz) talks to Senior Research Fellow with the Technology Policy Program at the Mercatus Center at George Mason University, [Adam Thierer](https://www.mercatus.org/adam-thierer) about "the role of government in regulating autonomous vehicles." Adam advocates for "[Permissionless Innovation](http://permissionlessinnovation.org/)" (that's the title of his book) and a sort of "soft regulation" whereby governments meet with innovators to impart a wish list of behavioral guidelines, rather than impose preemptive regulations, as to not stifle innovation.
 
 ![Permissionless Innovation cover](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/smarter_cars/IMG_3775.JPG?raw=true)
 
