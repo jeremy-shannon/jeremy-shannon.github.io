@@ -7,7 +7,6 @@ categories: FBF, Everest, Trek
 
 *In my Flashback Friday series I'm going to sift through my memory for some wins. Who knows what I'll find in there?!*
 
-![Mt. Everest](https://www.flickr.com/photos/26427663@N06/5200991849/)
 ![Me and Mt. Everest](https://c1.staticflickr.com/6/5166/5200991849_0f52637217_b.jpg)
 
 If there's one thing the Big Cheese in my old organization remembered about me, it was that I had been to Mount Everest (a detail volunteered by my supervisor when the Ultra-Mega Cheese was trying to make small talk after handing out an award in the presence of a bunch of awkward engineers). So if you're here reading this blog thinking about hiring me and dreading interviewing me because, "God, does this guy talk about *anything* other than self-driving cars?" then this is your "out."
