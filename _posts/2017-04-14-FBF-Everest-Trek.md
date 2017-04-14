@@ -9,7 +9,7 @@ categories: FBF, Everest, Trek
 
 ![Me and Mt. Everest](https://c1.staticflickr.com/6/5166/5200991849_0f52637217_b.jpg)
 
-If there's one thing the Big Cheese in my old organization remembered about me, it was that I had been to Mount Everest (a detail volunteered by my supervisor when the Ultra-Mega Cheese was trying to make small talk after handing out an award in the presence of a bunch of awkward engineers). So if you're here reading this blog thinking about hiring me and dreading interviewing me because, "God, does this guy talk about *anything* other than self-driving cars?" then this is your "out."
+If there's one thing the Big Cheese in my old organization remembered about me, it was that I had been to Mount Everest (a detail volunteered by my supervisor when the Ultra-Mega Cheese was trying to make small talk after handing out an award in the presence of a bunch of awkward engineers). I mean, c'mon, who really gives a damn about actual contributions, right?  So if you're here reading this blog thinking about hiring me and dreading interviewing me because, "God, does this guy talk about *anything* other than self-driving cars?" then this is your "out."
 
 And *no*, I did not *summit* Everest. What do I look like? A plastic surgeon? I might have a *few* G's and weeks to spend on a trek to Everest Base Camp, but I certainly do not have the [cash nor time to spend on a summit](http://www.alanarnette.com/blog/2016/12/18/how-much-does-it-cost-to-climb-mount-everest/). No thank you!
 
