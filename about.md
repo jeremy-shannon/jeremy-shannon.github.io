@@ -16,6 +16,8 @@ permalink: /about/
 
 ### People are talking...
 
+> I must say, it's rather rare to discover such an entertaining piece about such a complicated subject! <br><span class="attrib">- Udacity Senior Technical Writer [Christopher Watkins](http://blog.udacity.com/author/christopherwatkins), referring to my [EKF project blog post](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html)</span>
+
 > You got the trusty Jeremy. <br><span class="attrib">- a teammate upon finding I'd been recruited for the [Didi Challenge](https://www.udacity.com/didi-challenge)</span>
 
 > Your blog post really saved me on Project 4.
