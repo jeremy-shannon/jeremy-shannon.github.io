@@ -22,7 +22,7 @@ I must be doing something right if people are getting in touch with me out of th
 > John
 <hr>
 
-<img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyHead.jpg?raw=true" alt="My purty head" width=100px>
+<img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyHead.jpg?raw=true" width=100px>
 
 > Hi John,
 >
