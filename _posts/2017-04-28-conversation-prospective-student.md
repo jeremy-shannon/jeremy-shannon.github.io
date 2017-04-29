@@ -4,10 +4,13 @@ title:  "A Conversation with a Prospective Nanodegree Student"
 date:   2017-04-28 21:00:00 
 categories: udacity, self-driving car, nanodegree, prospective student
 ---
+[//]: # (Image References)
+[John]: https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/John_Cena_May_2016.jpg?raw=true "My new friend John"
+[Jeremy]: https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyGoofyHeadSmall.jpg?raw=true "My purty face"
 
 I must be doing something right if people are getting in touch with me out of the blue with questions, both technical and otherwise, about the [Udacity Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/drive). It's great! I'd already met several interesting people, but when my [EKF project blog post](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html) kinda maybe blew up a little bit I had even more coming out of the woodwork. This conversation I had with John (not really John Cena) was too good not to share:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/John_Cena_May_2016.jpg/220px-John_Cena_May_2016.jpg">
+![Alt Text][John]
 
 > Hi Jeremy,
 >
@@ -22,7 +25,7 @@ I must be doing something right if people are getting in touch with me out of th
 > John
 <hr>
 
-<img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyHead.jpg?raw=true">
+![Alt Text][Jeremy]
 
 > Hi John,
 >
@@ -37,7 +40,7 @@ I must be doing something right if people are getting in touch with me out of th
 > cheers
 <hr>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/John_Cena_May_2016.jpg/220px-John_Cena_May_2016.jpg">
+![Alt Text][John]
 
 > Thank you so much Jeremy,
 >
@@ -54,7 +57,7 @@ I must be doing something right if people are getting in touch with me out of th
 > John
 <hr>
 
-<img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyHead.jpg?raw=true">
+![Alt Text][Jeremy]
 
 > You're welcome John, I'm sure you'll do great! (Especially if you do some preparation in advance.) Some people have complained about the pace in Term 1, but I get the feeling a few of those people weren't really putting an earnest effort in and probably weren't sticking to a consistent schedule. And if you plan to enter the program later in the year, I would bet that by then Udacity will have evened out the load so that it's not so hectic in Term 1 (Term 2 is already far more relaxed). I'm pretty sure that the vast majority of students in the program work full time. 
 >
@@ -67,7 +70,7 @@ I must be doing something right if people are getting in touch with me out of th
 > (Speaking of... unless you object, I might use this conversation in a future blog post. I won't use your full name, of course.)
 <hr>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/John_Cena_May_2016.jpg/220px-John_Cena_May_2016.jpg">
+![Alt Text][John]
 
 > Thank you so much Jeremy,
 >
