@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Conversation with a Prospective Nanodegree Student"
+title:  "A Candid Conversation with a Prospective Nanodegree Student"
 date:   2017-04-28 21:00:00 
 categories: udacity, self-driving car, nanodegree, prospective student
 ---
