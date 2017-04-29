@@ -8,7 +8,7 @@ categories: udacity, self-driving car, nanodegree, prospective student
 [John]: https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/John_Cena_May_2016.jpg?raw=true "My new friend John"
 [Jeremy]: https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyGoofyHeadSmall.jpg?raw=true "My purty face"
 
-I must be doing something right if people are getting in touch with me out of the blue with questions, both technical and otherwise, about the [Udacity Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/drive). It's great! I'd already met several interesting people, but when my [EKF project blog post](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html) kinda maybe blew up a little bit I had even more coming out of the woodwork. This conversation I had with John (not really John Cena) was too good not to share:
+I must be doing something right if people are getting in touch with me out of the blue with questions, both technical and otherwise, about the [Udacity Self-Driving Car Engineer Nanodegree Program](https://www.udacity.com/drive). It's great! I'd already met several interesting people, but when my [EKF project blog post](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html) kinda maybe blew up a little bit I had even more coming out of the woodwork. This conversation I had with John (not actually John Cena, by the way) was too good not to share:
 
 ![Alt Text][John]
 
