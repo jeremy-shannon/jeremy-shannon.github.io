@@ -8,6 +8,10 @@ My wife is a badass. [No](http://braidcreative.com) [really](http://beingboss.cl
 
 Now, you're not going to see me allude to it in the Slack channel, or the Facebook group, or the Confluence forum, but... (pssst, lean in close) this nanodegree thing is absolutely, positively a competition. *Ahem!* So, when among the other students, I make every effort to be helpful and outgoing and kumbaya and kudos all over the freakin' place. But look, there are thousands of us doing this thing. Of course I want everyone to be successful but even if there are plenty of jobs to go around, it behooves each and every one of us to do whatever we can to stand out. So I did what any sane job-seeker would do: I plastered a goofy-ass avatar all over the place.
 
+![goofy](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/jeremyGoofyHeadSmall.jpg?raw=true)
+
+(*Note 2017-05-17: I have since changed my avatar in most places to the following image because, dammit, I guess this is super serious stuff and you gotta play the Serious Game if you want to be taken serously.*)
+
 <img src="https://avatars3.githubusercontent.com/u/9954198?v=3&s=200" alt="goofy ass" style="border-radius:100%;">
 
 "Wait, seriously? But Jeremy, aren't you worried that picture makes you look like an idiot?" No, because I *am* an idiot. But that's beside the point. Are you ever going to forget that stupid face? Hell no! Those randomly generated Slack avatars? Maybe not so much. Besides, I think that photo captures a lot of my essence. If some employer is looking for someone so damn serious, then we're probably both better off if they look elseware.
