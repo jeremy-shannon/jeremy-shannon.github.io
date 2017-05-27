@@ -5,7 +5,7 @@ date:   2017-06-02 21:00:00
 categories: udacity, self-driving car, nanodegree, project, kidnapped vehicle, particle filter
 ---
 
-![Kidnapped Vehicle](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/kidnapped_vehicle/kidnapped_vehicle_cover.PNG?raw=true)
+![Kidnapped Vehicle](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/kidnapped_vehicle/kidnapped_vehicle_cover.png?raw=true)
 
 The eighth project for the Udacity Self-Driving Car Engineer Nanodegree Program, and the third for Term 2, was titled "Kidnapped Vehicle" but that name was more or less window dressing on top of what was in many ways another take on the concepts of the previous two projects (The [Extended Kalman Filter project](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html) and the [Unscented Kalman Filter project](http://jeremyshannon.com/2017/05/05/udacity-sdcnd-unscented-kalman-filter.html)). All three are primarily concerned with taking noisy, uncertain sensor measurements and movements, and combining them to produce a more precise state belief (whether that state is the location, orientation, and velocity of a pedestrian, a bicyclist, or, in this case, our own vehicle). 
 
