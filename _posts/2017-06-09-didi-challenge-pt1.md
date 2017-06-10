@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DiDi Just Hear You Say Challenge? (Part 1)"
+title:  "DiDi Just Hear You Say 'Challenge'? (Part 1)"
 date:   2017-06-09 21:00:00 
 categories: udacity, didi challenge, object tracking, point cloud, ROS
 ---
