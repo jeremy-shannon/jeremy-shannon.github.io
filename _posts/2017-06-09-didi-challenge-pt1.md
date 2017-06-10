@@ -51,7 +51,7 @@ The final step was to compute the centroids of the clusters. I could use these c
 
 This brings us to only a few days before the competition deadline, and it's what I threw together in those last few days that I plan to share in Part 2. Stay tuned!
 
-*Feel free to skip ahead and [check out the code on GitHub](https://github.com/jeremy-shannon/ROS-examples) if you want, though!*
+*Feel free to skip ahead and [check out the code on GitHub](https://github.com/jeremy-shannon/ROS-examples) if you want (you'll be missing out on all my charm, though).*
 
 
 
