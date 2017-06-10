@@ -11,7 +11,7 @@ When the [DiDi Challenge](https://www.udacity.com/didi-challenge) was announced,
 
 The team quickly grew to over forty members, but just as quickly solidified into a core of four or five of us who regularly joined the Skype meetings. We were at a significant disadvantage because none of us had experience with [ROS](http://www.ros.org/), [PCL](pointclouds.org), or the [KITTI Benchmark Suite](http://www.cvlibs.net/datasets/kitti/) (the inspiration for the DiDi Challenge). We spent an inordinate amount of time just trying to understand what the heck the goal of the challenge was and how to get there with the data provided. To further complicate things, turnover at Udacity meant that there were some hiccups in the rollout of the challenge - datasets had to be rereleased, deadlines pushed back, requirements clarified. Some teams became frustrated and I suspect more than one quit in protest, but I wasn't phased - I wasn't in it to win the $100k prize money; I just wanted to learn some ROS and PCL. (Spoiler alert: I did!)
 
-![AGItR](https://cse.sc.edu/~jokane/agitr/cover-sm.jpg)
+![AGItR](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/didi_pt1/agitr.png?raw=true)
 
 Several of us downloaded the [ROSbag](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data) datasets and explored them using [rviz](http://wiki.ros.org/rviz/UserGuide). But this is as far as some of us got, due mainly to Nanodegree/university obligations and/or technical difficulties. In the meantime, I began Term 2 and ordered a hardcopy of the fantastic [A Gentle Introduction to ROS](https://cse.sc.edu/~jokane/agitr/). It was Nanodegree lectures and projects during the day, and then a few pages of this book in bed before falling asleep. I'd have to work on the challenge between Nanodegree projects.
 
@@ -48,6 +48,12 @@ And after:
 The final step was to compute the centroids of the clusters. I could use these centroids to determine whether the cluster belongs to the obstacle car or not based on its proximity to the obstacle car RTK coordinates. Using this approach, I built a dataset of "car" and "noncar" images by extracting 64x64 squares of pixels around the centroids. I had considered building a classifier for the raw point cloud clusters, partly because I discovered the PCL library includes an SVMClassifier class! Here's why I decided against it, though, as described to my teammates:
 
 > I've been stewing on this for a couple of days, and I don't think I can build a classifier on raw point cloud cluster data. The main reason, I'm thinking, is because most (all?) ML algorithms require your input data shape to be consistent. With these point clouds, though, when the clusters are distant they might have only 10 points, and when they're close they might have 100 or more. There might be ways to work around that, and maybe the PCL SVMClassifier is one way to do it - I just don't think I have time to figure it out and I can't seem to find a single example of it out on the Internet.<br><br>So I guess my plan from this point is: convert N x N patches of the point cloud, centered at the cluster centroid, to a height map image (just like is being displayed in the video, but maybe a 64x64 square), save these little images to 'car' and 'notCar' folders, and then we can build a classifier on those suckers (one of you people with a nice GPU). :) Thoughts?
+
+Here's a smattering of some of the image files that this produced:
+
+![samples](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/didi_pt1/car_noncar.png?raw=true)
+
+Can you guess which are cars and which aren't? How about which ones are little dinosaurs?
 
 This brings us to only a few days before the competition deadline, and it's what I threw together in those last few days that I plan to share in Part 2. Stay tuned!
 
