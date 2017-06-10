@@ -19,7 +19,7 @@ Udacity provided several snippets of code to help with things like parsing the R
 
 ![original](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/didi_pt1/01-original.gif?raw=true)
 
-The team rejoiced. Progress!
+(disregard that mouse pointer) The team rejoiced. Progress!
 
 The original node produced an overhead view of the LiDAR points (as you can see), saved it to disk, and published this view as a point cloud on a different ROS topic. I shelved the last two pieces and decided to start simple: let's draw a little circle around the LiDAR position. There was a nice helper method to convert point cloud X,Y coordinates to image coordinates, so I gave it a (0,0) and called `cv::circle`. Easy enough. 
 
@@ -31,7 +31,7 @@ I took the three RTK coordinates (relative to the base station) and the equation
 
 ![Obs Location](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/didi_pt1/03-walkthrough.gif?raw=true)
 
-Not bad!
+(disregard that errant circle - I fixed that later) Not bad!
 
 Now it was time to get fancy with PCL. I started with [this tutorial on cluster extraction](http://www.pointclouds.org/documentation/tutorials/cluster_extraction.php) and made changes to suit this particular application. It conveniently combines several pieces that lead up to the extraction of clusters of points from the point cloud, including downsampling the cloud using a voxel grid and ground plane segmentation and removal. I added conditional removal of points above and below certain Z heights (where we wouldn't expect to see the obstacle car anyway) and, later, of points corresponding to the capture car. Tuning the clustering parameters was the most difficult part, but here is the final result before removing the capture car:
 
@@ -47,9 +47,7 @@ And after:
 
 The final step was to compute the centroids of the clusters. I could use these centroids to determine whether the cluster belongs to the obstacle car or not based on its proximity to the RTK coordinates. Using this approach, I built a dataset of "car" and "noncar" images by extracting 64x64 squares of pixels around the centroids. I had considered building a classifier for the raw point cloud clusters, partly because I discovered the PCL library includes an SVMClassifier class! Here's why I decided against it, though, as described to my teammates:
 
-> I've been stewing on this for a couple of days, and I don't think I can build a classifier on raw point cloud cluster data. The main reason, I'm thinking, is because most (all?) ML algorithms require your input data shape to be consistent. With these point clouds, though, when the clusters are distant they might have only 10 points, and when they're close they might have 100 or more. There might be ways to work around that, and maybe the PCL SVMClassifier is one way to do it - I just don't think I have time to figure it out and I can't seem to find a single example of it out on the Internet.
-
-> So I guess my plan from this point is: convert N x N patches of the point cloud, centered at the cluster centroid, to a height map image (just like is being displayed in the video, but maybe a 64x64 square), save these little images to 'car' and 'notCar' folders, and then we can build a classifier on those suckers (one of you people with a nice GPU). :) Thoughts?
+> I've been stewing on this for a couple of days, and I don't think I can build a classifier on raw point cloud cluster data. The main reason, I'm thinking, is because most (all?) ML algorithms require your input data shape to be consistent. With these point clouds, though, when the clusters are distant they might have only 10 points, and when they're close they might have 100 or more. There might be ways to work around that, and maybe the PCL SVMClassifier is one way to do it - I just don't think I have time to figure it out and I can't seem to find a single example of it out on the Internet.<br><br>So I guess my plan from this point is: convert N x N patches of the point cloud, centered at the cluster centroid, to a height map image (just like is being displayed in the video, but maybe a 64x64 square), save these little images to 'car' and 'notCar' folders, and then we can build a classifier on those suckers (one of you people with a nice GPU). :) Thoughts?
 
 This brings us to only a few days before the competition deadline, and it's what I threw together in those last few days that I plan to share in Part 2. Stay tuned!
 
