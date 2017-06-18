@@ -21,6 +21,6 @@ Udacity also suggested we try to implement a PID controller for the throttle. It
 
 I'll leave you with a video chronicling my journey; next time we'll be graduating to the more sophisticated Model Predictive Controller.
 
-<a href="https://youtu.be/GJNoVgHcSCw"><img src="https://img.youtube.com/vi/GJNoVgHcSCw/0.jpg"></a>
+<a href="https://youtu.be/GJNoVgHcSCw"><img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/pid/pid_vid.png?raw=true"></a>
 
 *The source code for this project can be found [on my GitHub](https://github.com/jeremy-shannon/CarND-PID-Control-Project)*
