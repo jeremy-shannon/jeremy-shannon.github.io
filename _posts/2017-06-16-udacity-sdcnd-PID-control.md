@@ -5,6 +5,8 @@ date:   2017-06-16 21:00:00
 categories: udacity, self-driving car, nanodegree, project, pid control
 ---
 
+![PID title](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/pid/pid_cover.png?raw=true)
+
 The ninth project for the Udacity Self-Driving Car Engineer Nanodegree Program and the fourth for Term 2, PID Control, reprised most of what I had learned on this very topic way back in November and December of last year when I took and blogged about [Udacity's Artificial Intelligence for Robotics course](http://jeremyshannon.com/2016/12/09/udacity-artificial-intellgence-for-robotics-pt-2.html). Here's what I had to say about it back then:
 
 > The next topic was PID control. This unit took me back to Control Theory class back in my undergrad days. I probably best recall being blown away by the [analogs between control devices in electrical and mechanical applications](http://lpsa.swarthmore.edu/Analogs/ElectricalMechanicalAnalogs.html) - resistors, capacitors, and inductors behave analogously to dashpots (dampers), springs, and masses. And the principles apply to programming robotics, using proportional, integral, and differential (PID) controls to apply motion directly, counteract bias, and dampen ringing respectively. Fun stuff.
