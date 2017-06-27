@@ -59,7 +59,7 @@ This brings us to only a few days before the competition deadline, and it's what
 
 *Feel free to skip ahead and [check out the code on GitHub](https://github.com/jeremy-shannon/ROS-examples) if you want (you'll be missing out on all my charm, though).*
 
-*Update! [Part two is now available!](http://jeremyshannon.com/2017/06/23/didi-challenge-pt2.html*
+*Update! [Part two is now available!](http://jeremyshannon.com/2017/06/23/didi-challenge-pt2.html)*
 
 
 
