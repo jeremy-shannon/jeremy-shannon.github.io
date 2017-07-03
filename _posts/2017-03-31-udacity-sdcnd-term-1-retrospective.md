@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Udacity Self-Driving Car Engineer Nanodegree Program Term 1 Retrospective"
+title:  "Udacity Self-Driving Car Engineer Nanodegree Program Term 1 in Review"
 date:   2017-03-31 21:00:00 
 categories: udacity, self-driving car, nanodegree, deep learning, computer vision
 ---
