@@ -18,6 +18,8 @@ permalink: /about/
 
 > I must say, it's rather rare to discover such an entertaining piece about such a complicated subject! <br><span class="attrib">- Udacity Senior Technical Writer [Christopher Watkins](http://blog.udacity.com/author/christopherwatkins), referring to my [EKF project blog post](http://jeremyshannon.com/2017/04/21/udacity-sdcnd-extended-kalman-filter.html)</span>
 
+> Excellent description and informative writeup, at a practical and understandable level! <br><span class="attrib">- A fellow Nanodegree student in response to my [Traffic Sign Classifier project blog post](https://medium.com/@jeremyeshannon/udacity-self-driving-car-nanodegree-project-2-traffic-sign-classifier-f52d33d4be9f)</span>
+
 > You got the trusty Jeremy. <br><span class="attrib">- a teammate upon finding I'd been recruited for the [Didi Challenge](https://www.udacity.com/didi-challenge)</span>
 
 > Your blog post really saved me on Project 4.
