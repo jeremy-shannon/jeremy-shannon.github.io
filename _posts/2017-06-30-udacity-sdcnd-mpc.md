@@ -27,6 +27,6 @@ After some debugging and tuning the cost function, my car was making its way aro
 
 Here's a little lighthearted video review of the whole experience:
 
-<a href="https://youtu.be/r14Ll3Jycbw"><img src="https://img.youtube.com/vi/r14Ll3Jycbw/0.jpg"></a>
+<a href="https://youtu.be/r14Ll3Jycbw"><img src="https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/mpc/video_img.png?raw=true"></a>
 
 *The source code for this project can be found [on my GitHub](https://github.com/jeremy-shannon/CarND-MPC-Project)*
