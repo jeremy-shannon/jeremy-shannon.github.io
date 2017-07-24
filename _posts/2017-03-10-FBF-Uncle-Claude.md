@@ -46,7 +46,7 @@ Zooming in, you can see that the sampling points on the aliased signal come from
 
 Yuck! That reconstructed signal is *not* like the original. The reson I wasn't seeing this effect on the scope until I zoomed far out is because it sampled at a much higer rate than the test station. Incidentally, this is the exact phenomenon that makes wheels or helicopter rotors seem to spin slowly, or backwards, or [not at all](https://www.youtube.com/watch?v=R-IVw8OKjvQ) in video.
 
-I changed the sample width to two seconds (a sampling rate of 512 Hz) and see how much more faithfully it captures the signal (in yellow, this time):
+I changed the sample width to two seconds (a sampling rate of 512 Hz). See how much more faithfully it captures the signal (in yellow, this time)?
 
 ![Alt Text][im02]
 
