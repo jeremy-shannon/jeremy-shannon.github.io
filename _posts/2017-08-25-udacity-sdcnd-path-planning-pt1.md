@@ -5,7 +5,7 @@ date:   2017-08-25 21:00:00
 categories: udacity, self-driving car, nanodegree, project, path planning
 ---
 
-![Path Planning cover image](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/pp_cover2.PNG?raw=true)
+![Path Planning cover image](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/pp_cover2.png?raw=true)
 
 The first project in Term 3 of the Udacity [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive) program, and the eleventh (!) overall, is Path Planning. I can't believe it's been almost *two months* since I wrote the [Model Predictive Control](http://jeremyshannon.com/2017/06/30/udacity-sdcnd-mpc.html) blog post. I guess the few weeks between terms, few weeks while the Path Planning project was being finalized, and few weeks it took me complete this project *do* add up to a couple of months.
 
