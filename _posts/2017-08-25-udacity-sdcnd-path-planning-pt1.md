@@ -5,7 +5,7 @@ date:   2017-08-25 21:00:00
 categories: udacity, self-driving car, nanodegree, project, path planning
 ---
 
-![Path Planning cover image](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/pp_cover2.png?raw=true)
+![Path Planning cover image](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/pp_cover2.PNG?raw=true)
 
 The first project in Term 3 of the Udacity [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive) program, and the eleventh (!) overall, is Path Planning. I can't believe it's been almost *two months* since I wrote the [Model Predictive Control](http://jeremyshannon.com/2017/06/30/udacity-sdcnd-mpc.html) blog post. I guess the few weeks between terms, few weeks while the Path Planning project was being finalized, and few weeks it took me complete this project *do* add up to a couple of months.
 
@@ -20,9 +20,9 @@ The project instructions included a couple of simple example trajectories: drivi
 My implementation, at least the first go-around, looked something like this: 
 
 1. Interpolate the waypoints for a nearby portion of track (this helped to get more accurate conversions)
-2. Determine the state of our own car (current position, velocity, and acceleration projected out a certain amount of time based on how much of the previous path was retained)
-3. Produce a set of rough predicted trajectories for each of the other vehicles on the road (assuming a constant speed)
-4. Determine the "states" available for our car (in this case, "keep lane," "change lanes to right," or "change lanes to the left")
+2. Determine the state of our own car (the position, velocity, and acceleration projected out a certain amount of time based on how much of the previous path was retained)
+3. Produce a set of rough predicted trajectories for each of the other vehicles on the road (assuming a constant velocity)
+4. Determine the "states" available for our car (in this case, "keep lane," "change lanes to the right," or "change lanes to the left")
 5. Generate a target end state (position, velocity, and acceleration) and a number of randomized potential trajectories (with elements of the target state perturbed slightly) for each available state (these ["Jerk-Minimized Trajectories" (JMTs)](http://mplab.ucsd.edu/tutorials/minimumJerk.pdf) are [quintic polynomials](https://en.wikipedia.org/wiki/Quintic_function) solved based on our current initial and desired final values for position, velocity, and acceleration)
 6. Evaluate each of these possible trajectories against a set of cost functions (rewarding efficiency and punishing things like collisions, higher average jerk, or exceeding the speed limit, for example)
 7. Choose the best (i.e. lowest-cost) trajectory
@@ -34,15 +34,15 @@ The image below is a visualization of predicted trajectories for other vehicles 
 
 ![Sensor fusion data visualization](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/sensor_fusion_2.png?raw=true)
 
-It took some time to achieve a successful build of the code, and more still to simply get the car to move. From there it was several days of fighting to get the car to drive even halfway decently. I had hit a roadblock. I bit off more than I could chew, and even after throwing out the fancier bits and just sticking to a single target and trajectory, keeping to the middle lane, and ignoring other traffic, my car was still jerking and wavering at best and flying madly to all corners of the track at worst. I believe the issue was primarily in stitching together the previous path with the newly generated trajectory and giving the planner an accurate state from which to build the trajectory. It didn't seem to have trouble with the initial trajectory and, indeed, the car seemed to start off fairly well in that first fraction of a second, but from there it would invariably violate the acceleration and jerk limits before either settling into a somewhat constant velocity or just taking off like a rocket.
+It took some time to achieve a successful build of the code, and more still to simply get the car to move. From there it was several days of fighting to get the car to drive even halfway decently. I had hit a roadblock. I bit off more than I could chew, and even after throwing out the fancier bits and just sticking to a single target and trajectory, keeping to the middle lane, and ignoring other traffic, my car was still jerking and wavering at best and flying madly to all corners of the track at worst. I believe the issue was primarily in stitching together the previous path with the newly generated trajectory and giving the planner an accurate state (both beginning and end) from which to build the trajectory. It didn't seem to have trouble with the initial trajectory and, indeed, the car seemed to start off fairly well in that first fraction of a second, but from there it would invariably violate the acceleration and jerk limits before either settling into a somewhat constant velocity or just taking off like a damn rocket.
 
-These images below show some of the paths my planner was passing to the simulator, for each of two different methods I tried for determining the starting parameters of the JMT. You can see that in both cases the first trajectory is smooth, but subsequent trajectories diverge at the point where points from the previous path are no longer retained:
+These images below show some of the paths my planner was passing to the simulator, for each of two different methods (which I won't go into here) I tried for determining the starting parameters of the JMT. You can see that in both cases the first trajectory is smooth, but subsequent trajectories diverge at the point where points from the previous path are no longer retained:
 
 ![JMT Trajectories 1](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/JMT_trajectories_1.png?raw=true)
 
 ![JMT Trajectories 2](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/path_planning/JMT_trajectories_2.png?raw=true)
 
-I would come up with a fix, but one problem always seemed to lead to another. Meanwhile Udacity released a walkthrough that put very little of the lesson material to use. It was simple. *Too* simple. Yet, after *two weeks* of battling with a more robust approach, I decided to abandon much of my approach and adapt it to the simplified approach in the walkthrough. 
+I was going mad. I couldn't sleep. I would come up with a fix, but one problem always seemed to lead to another. And even now I'm convinced that there was just *some little thing* that I was missing - some simple tweak that would do the trick. Meanwhile Udacity released a walkthrough that put very little of the lesson material to use. It was simple. *Too* simple. Yet, after *two weeks* of battling with a more robust approach, I decided to abandon much of my approach and adapt it to the simplified approach in the walkthrough. 
  
 ...and that's where I'll pick it up next week in [part 2](http://jeremyshannon.com/2017/09/01/udacity-sdcnd-path-planning-pt2.html)
  
