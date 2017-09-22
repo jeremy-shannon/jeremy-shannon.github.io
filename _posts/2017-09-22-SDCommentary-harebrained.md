@@ -16,9 +16,9 @@ I hear a lot of complaints that SDCs are more likely to *exacerbate* congestion 
 
 Here's my idea, stay with me here:
 
-Maybe we all agree that the earliest, most widespread adoption of Level 5 Autonomy© will be for long-haul trucking. And all of this autonomous long-haul trucking will obviously happen at night (*Duh!* Right?), freeing up our precious highways for rush hour commuters during the day. That's not going to solve our congestion problems as city populations explode in coming decades - it may just put a small dent in it for a short period of time.
+Maybe we all agree that the earliest, most widespread adoption of Level 5 Autonomy(C) will be for long-haul trucking. And all of this autonomous long-haul trucking will obviously happen at night (*Duh!* Right?), freeing up our precious highways for rush hour commuters during the day. That's not going to solve our congestion problems as city populations explode in coming decades - it may just put a small dent in it for a short period of time.
 
-But what are these trucks going to be doing during the day? Sitting there waiting for nightfall? Here's what I think they should do, since they're already autonomous: pick up a JeremyShannon© brand bus-trailer and haul it back and forth along major city roadways. People hop on and off, and switch directions not unlike switching subway trains. Hell, if all my dreams are coming true, why not have a bicycle ramp that I can roll up on *while the bus-trailer* is in motion like I'm goddamn Knight Rider or something.
+But what are these trucks going to be doing during the day? Sitting there waiting for nightfall? Here's what I think they should do, since they're already autonomous: pick up a JeremyShannon brand bus-trailer and haul it back and forth along major city roadways. People hop on and off, and switch directions not unlike switching subway trains. Hell, if all my dreams are coming true, why not have a bicycle ramp that I can roll up on *while the bus-trailer* is in motion like I'm goddamn Knight Rider or something.
 
 ![kitt](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/harebrained/kitt.jpg?raw=true)
 
