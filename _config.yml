@@ -9,7 +9,7 @@
 title: JeremyShannon.com
 email: jeremyeshannon@gmail.com
 description:  #> # this means to ignore newlines until "baseurl:"
-  - Udacity Self-Driving Car Engineer Nanodegree Fall 2017 <br>
+  - Udacity Self-Driving Car Engineer Nanodegree October 2017 <br>
   - MS in Electrical and Computer Engineering <br>
   - 15 years experience as electronics engineer and computer scientist
 baseurl: "" # the subpath of your site, e.g. /blog
