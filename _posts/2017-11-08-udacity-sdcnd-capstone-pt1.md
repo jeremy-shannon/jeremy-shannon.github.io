@@ -19,13 +19,13 @@ That image shows the vehicle subsystems (in dark blue, namely Perception, Planni
 
 Good eye, dear reader. You've been paying very close attention! Yes, we Nanodegree students had not been introduced to ROS yet, so that's what the lessons leading up to the final project were devoted to. The material came from the [Udacity Robotics Nanodegree](https://www.udacity.com/robotics), and included mostly topics that I was already familiar with having read [A Gentle Introduction to ROS](https://www.cse.sc.edu/~jokane/agitr/) to prepare myself for the DiDi Challenge. Still, it's never a bad idea to reinforce one's learning, particularly on something so universally instrumental for a self-driving car engineer.
 
-There were two configurations for the ROS package - Styx (the configuration to be run while developing and testing with the Udacity simulator) and Site (the Carla configuration, i.e. the real deal). The car was designed to follow a path made up of a set of waypoints, so each configuration had its own set of waypoints and other configuration items (like camera parameters and such). The Udacity-suggested order of operations was:
+There were two configurations for our ROS package - Styx (the configuration to be run while developing and testing with the Udacity simulator) and Site (the Carla configuration, i.e. the real deal). The car was designed to follow a path made up of a set of waypoints, so each configuration had its own set of waypoints and other particulars (like camera parameters and such). The Udacity-suggested order of operations was:
 
 1. Edit the Waypoint Updater Node to take the complete set of waypoints and publish a subset corresponding to the next several waypoints the car will visit, with an associated target velocity for each waypoint, to the topic `/final_waypoints`.
 2. Edit the DBW Node to take target linear and angular velocity messages on the `/twist_cmd` topic and current velocity published on the `/current_velocity` topic to produce control commands on the `/vehicle/throttle_cmd`, `/vehicle/brake_cmd`, and `/vehicle/steering_cmd` topics. (At this point the vehicle should be able to move in the simulator, although it'll blow through all the red lights.)
 3. Edit the Traffic Light Detector Node to consume images from the `/image_color` topic (and other information) to determine if there is a red light coming up and publish the waypoint at which any nearby red light is located on the `/traffic_waypoint` topic.
-4. Update the Waypoint Updater Node to publish `/final_waypoints` taking into account waypoints for which the velocity should be zero for stopping at a red light.
+4. Update the Waypoint Updater Node to publish `/final_waypoints` taking into account waypoints for which the velocity should be zero when stopping at a red light.
 
-Easy enough, right? We shall see. First, though, it's time to *TEAM UP*! Stay tuned for the next episode, coming soon!
+Easy enough, right? We shall see. First, though, it's time to *TEAM UP*! Stay tuned for the next episode, coming soon(ish)!
 
 *The code for this project can be found on [my GitHub](https://github.com/jeremy-shannon/CarND-Capstone).*
