@@ -7,7 +7,7 @@ categories: FIRST Lego League, volunteering, robotics
 
 ![FIRST Lego League Logo](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/first_lego_league/fll_logo.gif?raw=true)
 
-I had the pleasure and privilege of *again* volunteering, this time as a design judge at the [FIRST Lego League](www.firstlegoleague.org/) Oklahoma City qualifier competition this past weekend. FIRST Lego League is strikingly similar to [BEST](http://jeremyshannon.com/2017/10/31/OKBEST.html). It's an annual competition for middle school students for which they are also given a scenario, typically some real-life problem condensed into a simplified set of tasks and made competitive, and are instructed to construct and *program* a robot to handle it. This year's was based on the human relationship with the water cycle and was called "Hydro Dynamics":
+I had the pleasure and privilege of *again* volunteering, this time as a design judge at the [FIRST Lego League](http://www.firstlegoleague.org/) Oklahoma City qualifier competition this past weekend. FIRST Lego League is strikingly similar to [BEST](http://jeremyshannon.com/2017/10/31/OKBEST.html). It's an annual competition for middle school students for which they are also given a scenario, typically some real-life problem condensed into a simplified set of tasks and made competitive, and are instructed to construct and *program* a robot to handle it. This year's was based on the human relationship with the water cycle and was called "Hydro Dynamics":
 
 ![Hydro Dynamics Logo](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/first_lego_league/hydro_dynamics_logo.jpg?raw=true)
 
