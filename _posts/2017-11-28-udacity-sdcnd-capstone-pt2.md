@@ -46,7 +46,7 @@ Next time: Traffic Light Detector node!
 *The code for this project can be found on [my GitHub](https://github.com/jeremy-shannon/CarND-Capstone).*
 
 **UPDATE 2018-10-07** 
-*Yes, it's been nearly a year, but I'm finally coming back to tie up this loose end. I'll write more about what's been going on in the meantime... hopefully not another, what, 10 months later. For now, allow me to put a bow on this as best I can remembrer.*
+*Yes, it's been nearly a year, but I'm finally coming back to tie up this loose end. I'll write more about what's been going on in the meantime... hopefully not another, what, 10 months later. For now, allow me to put a bow on this as best I can remember.*
 
 So, after finding the Waypoint Updater and Drive-By-Wire nodes mostly taken care-of, it was on to the Traffic Light Detector node to see how things were going for Denise. She's a seasoned veteran in robotics, so I did what I could to be helpful. The problem we faced didn't have anything to do with being able to detect traffic lights and determine their states. It was the severe latency introduced running the ROS package in an Ubuntu VM alongside the Unity-based simulator on a Mac, for which, by all accounts it performed worst (and somehow this was the setup for myself and all of my teammates). 
 
@@ -62,6 +62,6 @@ It took a lot of driving the car around in the simulator to different locations 
 ![Traffic Light 4](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/capstone/tl4.png?raw=true)
 ![Traffic Light 5](https://github.com/jeremy-shannon/jeremy-shannon.github.io/blob/master/images/capstone/tl5.png?raw=true)
 
-From here, Denise was able to easily apply computer vision to determine the color of the light. In the end, the folks at Udacity didn't grade the final projects too harshly since, obviously, they were still squashing some bugs. They did then take our code and run in on their own self-driving car, Carla. I would have liked to be there to see it, but our code, like several other teams, evidently, immediately caused the car to exceed its maximum acceleration and trip an emergency shutdown. Cest la vie. It was a bit of an anticlimactic end to an otherwise mostly thrilling experience, but it *did* provide me some great experience with a real-world ROS project (and all of its idiosyncracies) and coding in a team environment. #TeamBacon4Life!
+From here, Denise was able to easily apply computer vision to determine the color of the light. In the end, the folks at Udacity didn't grade the final projects too harshly since, obviously, they were still squashing some bugs. They did then take our code and run in on their own self-driving car, Carla. I would have liked to be there to see it, but our code, like several other teams, evidently, immediately caused the car to exceed its maximum acceleration and trip an emergency shutdown. Cest la vie. It was a bit of an anticlimactic end to an otherwise mostly thrilling experience, but it *did* provide me some great experience with a real-world ROS project (and all of its idiosyncrasies) and coding in a team environment. #TeamBacon4Life!
 
 Ok, bye!
