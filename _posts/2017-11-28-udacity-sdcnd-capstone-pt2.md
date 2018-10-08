@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Udacity Self-Driving Car Nanodegree Final Project, Part 1 - The Git Master"
+title:  "Udacity Self-Driving Car Nanodegree Final Project, Part 2 - The Git Master"
 date:   2017-11-28 21:00:00 
 categories: udacity, self-driving car, nanodegree, project, final, capstone, system integration, git
 ---
